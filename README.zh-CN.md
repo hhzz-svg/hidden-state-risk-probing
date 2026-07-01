@@ -2,46 +2,55 @@
 
 [English README](README.md) | 中文
 
-本仓库是一个轻量级公开实验复现包，用于整理和核验一组试探性实验：大语言模型的 hidden states 中是否包含与风险相关的可探测信号。
+Hidden State Risk Probing 是一个可复现实验仓库，用于研究指令微调语言模型的 hidden states 是否携带与风险类别和后续行为相关的信号。
 
-## 仓库结构
+项目内容覆盖受控提示构造、hidden-state probe、生成行为标注、分布外评估、离线路由模拟，以及关于知识冲突和过程错误的扩展实验。
+
+## 仓库内容
+
+- `data/`：受控提示、OOD 评估、知识冲突提示和过程错误轨迹等输入数据。
+- `scripts/`：数据生成、hidden-state 抽取、probe、行为分析、路由和扩展实验脚本。
+- `outputs/`：生成的指标、摘要、图表、模型输出和张量清单。
+- `reports/`：实验报告、结果表、人工复核记录和审计摘要。
+- `env/`：依赖清单和环境说明。
+- `docs/`：补充复现说明。
+
+## 目录结构
 
 ```text
-data/       实验输入数据，包括受控数据、OOD、知识冲突和过程错误实验。
-scripts/    可复现实验脚本，包括数据构造、hidden-state 抽取、probe、行为分析、路由和扩展实验。
-outputs/    轻量结果文件，包括 CSV、JSON、JSONL、PNG、Markdown 和张量清单。
-reports/    Markdown 报告、结果表、人工复核记录和审计文件。
-env/        依赖清单和环境说明。
-docs/       公开复现包的发布范围说明。
+data/       实验输入数据。
+scripts/    可复现实验和分析脚本。
+outputs/    生成结果和图表。
+reports/    报告和复核记录。
+env/        依赖和环境文件。
+docs/       复现说明。
 ```
 
-## 包含内容
+## 快速开始
 
-- `data/` 下的实验输入数据。
-- `scripts/` 下的可复现实验和分析脚本。
-- `outputs/` 下的轻量输出结果。
-- `reports/` 下的 Markdown 报告、表格和人工复核证据。
-- `env/` 下的环境依赖说明。
+```powershell
+python -m pip install -r env/requirements.txt
+```
 
-## 有意排除的内容
+随后可以查看 `data/` 中的输入数据，按需运行 `scripts/` 中带编号的脚本，并将生成结果与 `outputs/`、`reports/` 中的表格和报告进行对照。
 
-- `outputs/**/*.pt`：hidden-state 张量体积较大且可重建。被移除张量的路径、字节数和 SHA256 记录在 `outputs/TENSOR_MANIFEST.tsv`。
-- `reports/**/*.docx`：本地生成的报告和 Q&A 草稿不作为公开证据包的一部分。
-- 本地编辑器配置、bytecode cache、过程笔记和历史规划文件。
-- 论文正文、海报、投稿文件和许可证文件。
+## 实验索引
 
-## 如何使用
+| 实验 | 主题 |
+|---|---|
+| 1 | hidden-state 抽取试验。 |
+| 2 | layer-wise probe 与 entropy baseline。 |
+| 3 | 受控提示与混杂控制。 |
+| 4 | 生成行为分析与人工复核。 |
+| 5 | 分布外泛化。 |
+| 6 | 离线路由模拟。 |
+| 7 Optional A | PK/CK 知识冲突扩展实验。 |
+| 8 Optional B | 合成过程错误扩展实验。 |
 
-1. 根据 `env/requirements.txt` 安装依赖。
-2. 查看 `data/` 中的输入数据。
-3. 如果要复现实验，按 `scripts/` 中文件名前缀的数字顺序运行对应脚本。
-4. 查看 `outputs/` 中的轻量生成结果。
-5. 使用 `reports/` 中的 Markdown 报告和人工复核记录核验实验结论。
+## 如何阅读结果
 
-## 当前发布范围
+建议先阅读 `reports/` 中的 Markdown 报告，再查看对应的 CSV/XLSX 表格以核对具体数值和人工复核记录。按模型生成的结果位于 `outputs/{model}/experiment*/`。
 
-当前仓库适合作为轻量级公开实验材料包，用于同行查看和复现实验流程。正式论文发布前，还需要补充许可证、引用元数据、最终作者信息和稳定归档地址。
+## 大型张量文件
 
-## 说明
-
-英文版 `README.md` 作为 GitHub 默认展示页，中文版 `README.zh-CN.md` 用于对照阅读。两个文件描述的是同一个公开复现包范围。
+Hidden-state 张量文件（`*.pt`）通过 `outputs/TENSOR_MANIFEST.tsv` 记录其目标路径、字节数和 SHA256。需要检查张量级结果时，可使用对应抽取脚本重新生成。

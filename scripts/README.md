@@ -1,6 +1,6 @@
 # scripts directory
 
-This directory contains reproducible experiment scripts and helper scripts. It does not contain data, model outputs, manuscript text, or formal report drafts.
+This directory contains reproducible experiment scripts and helper scripts.
 
 ## Naming convention
 
@@ -28,11 +28,11 @@ Examples:
 61        Experiment 6: offline routing simulation.
 71-75     Optional A v1: PK/CK conflict data, generation, behavior labels, and probe.
 81-88     Optional B: process-error v1/v2 and template holdout.
-91-103    Later review and extension scripts: Experiment 4 round 2, PK/CK v2, calibration, adjudication, and review workbook sync.
+91-103    Review and extension scripts for Experiment 4 round 2, PK/CK v2, calibration, adjudication, and workbook sync.
 ```
 
 ## Notes
 
 1. Scripts use the project layout `data/experimentN`, `outputs/{model}/experimentN`, and `reports/experimentN`.
-2. Historical DOCX generation scripts were removed from the public package.
-3. Public verification should rely on Markdown reports, CSV/XLSX review tables, and lightweight output files.
+2. Run the lower-numbered scripts first when reproducing a specific experiment.
+3. Compare generated outputs with the reports and tables after reruns.

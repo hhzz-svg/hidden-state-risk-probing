@@ -1,12 +1,12 @@
 # outputs directory
 
-This directory contains experiment outputs. It does not contain raw input data, scripts, manuscript text, or formal report drafts.
+This directory contains generated experiment outputs: metrics, summaries, plots, model generations, and tensor manifests.
 
 ## Layout
 
 ```text
 outputs/
-  TENSOR_MANIFEST.tsv       Manifest for removed hidden-state tensor files.
+  TENSOR_MANIFEST.tsv       Paths, byte sizes, and SHA256 hashes for hidden-state tensors.
   qwen05b/                  Results for Qwen2.5-0.5B-Instruct.
   qwen15b/                  Results for Qwen2.5-1.5B-Instruct.
   qwen7b/                   Results for Qwen2.5-7B-Instruct.
@@ -14,14 +14,9 @@ outputs/
 
 Model directories are further organized by experiment and stage, for example `hidden_probe`, `logit_baseline`, `generation`, `ood_evaluation`, `routing_simulation`, or `calibration`.
 
-## Tensor policy
+## Large tensor files
 
-The public package does not include `*.pt` hidden-state tensors. They are large and reconstructible, so this package keeps only:
-
-- `TENSOR_MANIFEST.tsv`: relative path, byte size, and SHA256 for each removed tensor.
-- Lightweight result files: CSV, JSON, JSONL, PNG, and Markdown.
-
-To rebuild tensors, run the corresponding hidden-state extraction scripts from `scripts/` and use the paths listed in `TENSOR_MANIFEST.tsv`.
+The repository keeps lightweight result files in Git. Hidden-state tensor files (`*.pt`) are tracked through `TENSOR_MANIFEST.tsv`; regenerate them with the corresponding extraction scripts when needed.
 
 ## Write rules
 

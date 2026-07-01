@@ -1,8 +1,6 @@
 # reports directory
 
-This directory keeps the human-readable evidence for the public replication package: Markdown reports, result tables, manual review files, and audit records.
-
-Generated DOCX reports, Q&A drafts, historical planning notes, and process-status notes are intentionally excluded from the public package.
+This directory contains report-level materials for interpreting the experiments: Markdown reports, result tables, manual review files, and audit summaries.
 
 ## Layout
 
@@ -19,7 +17,7 @@ reports/
 
 ## Main report index
 
-| Experiment | Main public material |
+| Experiment | Main material |
 |---|---|
 | 2 | `experiment2/experiment2_layerwise_probe_report.md` |
 | 3 | `experiment3/experiment3_confounder_control_report.md` |
@@ -41,9 +39,9 @@ experiment7_optionalA/pk_ck_v2_manual_review_*.csv   Optional A v2 manual review
 experiment8_optionalB/tables/                        Process-error v1/v2, template holdout, and calibration tables.
 ```
 
-## Use rules
+## Reading order
 
-1. Use Markdown reports and CSV/XLSX tables as the public evidence source.
-2. Keep `tables/*`, `manual_review/*.csv`, and `manual_review/*.xlsx` unchanged unless rerunning the corresponding experiment.
-3. Optional A and Optional B are extension experiments. They do not replace the main evidence chain from Experiments 3-6.
-4. Deleted DOCX, Q&A, and planning files are not part of the public evidence package.
+1. Start with the Markdown report for the target experiment.
+2. Use the tables directory for exact metrics and summaries.
+3. Use manual review files when checking behavior labels or adjudication details.
+4. Treat Optional A and Optional B as extension experiments alongside the main experiment chain.
