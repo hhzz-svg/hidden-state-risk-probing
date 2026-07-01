@@ -1,5 +1,7 @@
 # Hidden State Risk Probing
 
+[中文说明](README.zh-CN.md) | English
+
 This repository is a lightweight public replication package for pilot experiments on whether LLM hidden states contain risk-related signals.
 
 The package is intended for experiment review and reproducibility. It is not a paper submission package, and it does not include the manuscript, poster, submission files, or local writing process files.
