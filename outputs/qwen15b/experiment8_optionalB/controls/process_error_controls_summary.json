@@ -1,0 +1,9 @@
+{
+  "hidden_file": "outputs\\qwen15b\\experiment8_optionalB\\hidden_probe\\hidden_states_process_error.pt",
+  "selected_layer_for_shuffle": 1,
+  "n_samples": 480,
+  "n_groups": 160,
+  "before_error_count": 160,
+  "at_or_after_error_count": 320,
+  "controls_csv": "outputs\\qwen15b\\experiment8_optionalB\\controls\\process_error_controls.csv"
+}

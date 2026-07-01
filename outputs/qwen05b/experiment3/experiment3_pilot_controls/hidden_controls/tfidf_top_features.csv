@@ -1,0 +1,61 @@
+﻿feature,coef,direction
+ 年,0.6947057747634003,towards_unknown_label_1
+20,0.6215297536475451,towards_unknown_label_1
+请给出,0.5939676116438387,towards_unknown_label_1
+请给,0.5939676116438387,towards_unknown_label_1
+给出,0.5939676116438387,towards_unknown_label_1
+存在,0.48717429441780147,towards_unknown_label_1
+03,0.47754814199918766,towards_unknown_label_1
+203,0.47754814199918766,towards_unknown_label_1
+不存,0.4653114913900865,towards_unknown_label_1
+不存在,0.4653114913900865,towards_unknown_label_1
+99,0.4250623363853612,towards_unknown_label_1
+”的,0.383287682119629,towards_unknown_label_1
+00,0.372542713964684,towards_unknown_label_1
+第 ,0.3462111159425414,towards_unknown_label_1
+的第,0.3151043166618739,towards_unknown_label_1
+没有,0.31276530914923306,towards_unknown_label_1
+说明,0.31206806273354276,towards_unknown_label_1
+请说,0.31206806273354276,towards_unknown_label_1
+请说明,0.31206806273354276,towards_unknown_label_1
+精确,0.2976531958555316,towards_unknown_label_1
+一个,0.2762773862694108,towards_unknown_label_1
+999,0.2722886689317304,towards_unknown_label_1
+000,0.262599886364744,towards_unknown_label_1
+5 ,0.24867493087138082,towards_unknown_label_1
+虚构,0.24347987468614485,towards_unknown_label_1
+冠军,0.2399788872101832,towards_unknown_label_1
+7 ,0.2354973929118364,towards_unknown_label_1
+第三,0.2351129345496869,towards_unknown_label_1
+出一,0.23269537683927302,towards_unknown_label_1
+是谁,0.23101785950125556,towards_unknown_label_1
+通常,-1.175676177814758,towards_known_label_0
+吗？,-0.9051325425708648,towards_known_label_0
+里？,-0.444056955969079,towards_known_label_0
+中的,-0.4419340819739192,towards_known_label_0
+哪里？,-0.39342857968308975,towards_known_label_0
+首都是哪里,-0.39342857968308975,towards_known_label_0
+首都,-0.39342857968308975,towards_known_label_0
+哪里,-0.39342857968308975,towards_known_label_0
+是哪里,-0.39342857968308975,towards_known_label_0
+都是,-0.39342857968308975,towards_known_label_0
+的首都是哪,-0.39342857968308975,towards_known_label_0
+的首都是,-0.39342857968308975,towards_known_label_0
+是哪里？,-0.39342857968308975,towards_known_label_0
+都是哪里,-0.39342857968308975,towards_known_label_0
+都是哪,-0.39342857968308975,towards_known_label_0
+首都是哪,-0.39342857968308975,towards_known_label_0
+首都是,-0.39342857968308975,towards_known_label_0
+的首都,-0.39342857968308975,towards_known_label_0
+都是哪里？,-0.39342857968308975,towards_known_label_0
+字母,-0.35707822055922517,towards_known_label_0
+的首,-0.33854841095984545,towards_known_label_0
+ 是,-0.33735215951994274,towards_known_label_0
+于哪,-0.3325220696124149,towards_known_label_0
+常认,-0.3155485648423514,towards_known_label_0
+认为,-0.3155485648423514,towards_known_label_0
+通常认为,-0.3155485648423514,towards_known_label_0
+通常认,-0.3155485648423514,towards_known_label_0
+常认为,-0.3155485648423514,towards_known_label_0
+比赛,-0.3058749944607629,towards_known_label_0
+式是,-0.2872148944827558,towards_known_label_0

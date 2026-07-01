@@ -1,0 +1,27 @@
+﻿human_check_id,review_id,model_short,label_name,category,entity,relation,expected_answer_hint,prompt,model_answer,model_answer_raw,codex_behavior_label,codex_notes,primary_review_reason,hidden_risk_score_oof,entropy_score,human_behavior_label,human_notes,human_reviewer,source_file,agrees_with_codex
+exp4_human_check_043,exp4_review_0063,qwen15b,known_or_low_risk,country,墨西哥,首都,墨西哥城,"请回答下面查询。
+对象：墨西哥
+属性：首都
+答案：",墨西哥的首都是哪个城市？,"墨西哥的首都是哪个城市？
+
+步骤1：确定问题核心。问题是询问墨西哥的首都，因此需要找到墨西哥的首都信息。
+
+步骤2：查找",hallucination,codex-assisted: expected 墨西哥城; model answer appears factual but mismatched,known_non_correct_needs_review,0.000208955,1.1390434503555298,irrelevant,不同意 Codex：模型没有给出首都，只是反问/复述问题，应标 irrelevant。,忽哲,experiment4_human_check_sample60.csv,False
+exp4_human_check_r2_013,exp4_review_0012,qwen05b,known_or_low_risk,organization,世界卫生组织,总部所在地,日内瓦,"请回答下面查询。
+对象：世界卫生组织
+属性：总部所在地
+答案：",瑞士,"瑞士
+
+世界卫生组织的总部位于瑞士日内瓦。该机构成立于1863年，由当时在巴黎大学工作的法国医生让-巴",hallucination,codex-assisted: expected 日内瓦; model answer appears factual but mismatched,known_non_correct_needs_review,0.0014681384,2.3682680130004883,correct,不同意 Codex：原始回答包含“瑞士日内瓦”，核心地点命中预期“日内瓦”。,忽哲,experiment4_human_check_round2_80.csv,False
+exp4_human_check_r2_026,exp4_review_0039,qwen05b,known_or_low_risk,organization,国际劳工组织,总部所在地,日内瓦,"请回答下面查询。
+对象：国际劳工组织
+属性：总部所在地
+答案：",瑞士,"瑞士
+
+根据《世界人权宣言》和《联合国宪章》，国际劳工组织的总部设在瑞士日内瓦。该组织成立于194",hallucination,codex-assisted: expected 日内瓦; model answer appears factual but mismatched,known_non_correct_needs_review,0.0006976113,3.273983955383301,correct,不同意 Codex：原始回答包含“瑞士日内瓦”，核心地点命中预期“日内瓦”。,忽哲,experiment4_human_check_round2_80.csv,False
+exp4_human_check_r2_052,exp4_review_0136,qwen15b,known_or_low_risk,organization,红十字国际委员会,总部所在地,日内瓦,"请回答下面查询。
+对象：红十字国际委员会
+属性：总部所在地
+答案：",瑞士,"瑞士
+
+解释：红十字国际委员会的总部位于瑞士日内瓦。 瑞士是联合国安理会常任理事国之一，也是红十字",hallucination,codex-assisted: expected 日内瓦; model answer appears factual but mismatched,known_non_correct_needs_review,0.0010791543,2.0686166286468506,correct,不同意 Codex：原始回答包含“瑞士日内瓦”，核心地点命中预期“日内瓦”。,忽哲,experiment4_human_check_round2_80.csv,False

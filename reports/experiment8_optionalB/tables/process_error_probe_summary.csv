@@ -1,0 +1,2 @@
+﻿model,target,num_samples,num_groups,before_error_count,at_or_after_error_count,best_layer,best_auroc_mean,best_auroc_std,best_accuracy_mean,best_f1_mean,split
+Qwen2.5-1.5B-Instruct,before_error_vs_at_or_after_error,480,160,160,320,1,1.0,0.0,1.0,1.0,GroupKFold(trace_id)

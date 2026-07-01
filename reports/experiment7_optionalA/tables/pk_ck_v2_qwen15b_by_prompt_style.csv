@@ -1,0 +1,12 @@
+﻿prompt_style,instruction_strength,behavior_label,count,rate
+brief_qa,neutral_short,ck_follow,3,0.03
+brief_qa,neutral_short,mixed_or_conflict_ack,28,0.28
+brief_qa,neutral_short,other,1,0.01
+brief_qa,neutral_short,pk_follow,68,0.68
+conflict_explicit,explicit_context_priority,ck_follow,58,0.58
+conflict_explicit,explicit_context_priority,mixed_or_conflict_ack,42,0.42
+quoted_context_then_question,neutral,ck_follow,22,0.22
+quoted_context_then_question,neutral,mixed_or_conflict_ack,35,0.35
+quoted_context_then_question,neutral,pk_follow,43,0.43
+use_material_first,context_priority,ck_follow,43,0.43
+use_material_first,context_priority,mixed_or_conflict_ack,57,0.57

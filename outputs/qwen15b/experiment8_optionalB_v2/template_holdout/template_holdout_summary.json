@@ -1,0 +1,25 @@
+{
+  "hidden_file": "C:\\Users\\huzhe\\OneDrive\\Desktop\\论文\\实验\\hidden_state_pilot\\outputs\\qwen15b\\experiment8_optionalB_v2\\hidden_probe\\hidden_states_process_error_v2.pt",
+  "num_samples": 960,
+  "num_layers": 29,
+  "hidden_size": 1536,
+  "templates": [
+    "linear_equation",
+    "mul_add",
+    "parentheses_mul",
+    "sum3"
+  ],
+  "split": "leave_one_template_out",
+  "best_layer_by_auroc": 28,
+  "best_auroc_mean": 0.9130381944444445,
+  "best_auroc_std": 0.04058501019268737,
+  "best_accuracy_mean": 0.7166666666666667,
+  "best_f1_mean": 0.7601691943543438,
+  "best_non_final_layer_by_auroc": {
+    "layer": 25,
+    "auroc_mean": 0.8253298611111111,
+    "auroc_std": 0.06417376541521361,
+    "accuracy_mean": 0.7072916666666667,
+    "f1_mean": 0.7239764106326781
+  }
+}

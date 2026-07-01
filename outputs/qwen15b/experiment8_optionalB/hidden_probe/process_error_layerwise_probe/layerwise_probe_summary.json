@@ -1,0 +1,16 @@
+{
+  "hidden_file": "outputs\\qwen15b\\experiment8_optionalB\\hidden_probe\\hidden_states_process_error.pt",
+  "num_samples": 480,
+  "num_groups": 160,
+  "num_layers": 29,
+  "hidden_size": 1536,
+  "before_error_count": 160,
+  "at_or_after_error_count": 320,
+  "group_split": "GroupKFold(trace_id)",
+  "n_splits": 5,
+  "best_layer_by_auroc": 1,
+  "best_auroc_mean": 1.0,
+  "best_auroc_std": 0.0,
+  "best_accuracy_mean": 1.0,
+  "best_f1_mean": 1.0
+}

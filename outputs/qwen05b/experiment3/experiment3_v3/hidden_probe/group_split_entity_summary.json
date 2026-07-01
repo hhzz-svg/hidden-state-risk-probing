@@ -1,0 +1,29 @@
+{
+  "group_col": "entity",
+  "n_splits": 5,
+  "num_samples": 600,
+  "num_groups": 300,
+  "length_baseline": {
+    "name": "group_entity_length_baseline",
+    "AUROC_mean": 0.4891388888888889,
+    "AUROC_std": 0.029440041599541177,
+    "Accuracy_mean": 0.49833333333333335,
+    "Accuracy_std": 0.009718253158075492,
+    "F1_mean": 0.5094300640690028,
+    "F1_std": 0.04963768921280862
+  },
+  "tfidf_baseline": {
+    "name": "group_entity_tfidf_baseline",
+    "AUROC_mean": 0.950388888888889,
+    "AUROC_std": 0.027547153737044153,
+    "Accuracy_mean": 0.8666666666666668,
+    "Accuracy_std": 0.054518090779320405,
+    "F1_mean": 0.8663128896621719,
+    "F1_std": 0.053436161747043
+  },
+  "best_layer": 7,
+  "best_hidden_auroc_mean": 1.0,
+  "best_hidden_auroc_std": 0.0,
+  "best_hidden_accuracy_mean": 0.9916666666666666,
+  "best_hidden_f1_mean": 0.9917883863886212
+}

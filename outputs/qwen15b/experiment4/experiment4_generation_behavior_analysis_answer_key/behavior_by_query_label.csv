@@ -1,0 +1,3 @@
+﻿label_name,correct,hallucination,refusal
+known_or_low_risk,233,67,0
+unknown_or_high_risk,0,298,2

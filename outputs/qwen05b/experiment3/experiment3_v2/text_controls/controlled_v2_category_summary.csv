@@ -1,0 +1,17 @@
+﻿category,label,count
+book_author,0,25
+book_author,1,25
+capital,0,25
+capital,1,25
+chemical_formula,0,25
+chemical_formula,1,25
+element_symbol,0,25
+element_symbol,1,25
+organization_headquarters,0,25
+organization_headquarters,1,25
+person_country,0,25
+person_country,1,25
+physical_unit,0,25
+physical_unit,1,25
+river_continent,0,25
+river_continent,1,25

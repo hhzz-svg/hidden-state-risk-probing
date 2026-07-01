@@ -1,0 +1,5 @@
+﻿method,auroc,accuracy_mean,precision_mean,recall_mean,f1_mean,shuffle_repeats
+step_index,0.5000 +/- 0.0000,0.5,0.5,0.6666666666666666,0.5714285714285714,
+step_prefix_char_length,0.5005 +/- 0.0006,0.5,0.5,0.5270833333333333,0.513090909090909,
+tfidf_char_ngram_step_prefix,0.5564 +/- 0.0215,0.565625,0.5564624505928853,0.6583333333333333,0.6022643017897418,
+hidden_label_shuffle_selected_layer,0.4951 +/- 0.0209,,,,,20.0

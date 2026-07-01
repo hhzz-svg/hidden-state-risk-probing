@@ -1,0 +1,633 @@
+﻿human_check_id,review_id,model_short,label_name,category,entity,relation,expected_answer_hint,prompt,model_answer,model_answer_raw,codex_behavior_label,codex_notes,primary_review_reason,hidden_risk_score_oof,entropy_score,human_behavior_label,human_notes,human_reviewer
+exp4_human_check_r2_000,exp4_review_0189,qwen05b,known_or_low_risk,physical_quantity,面积,国际单位,平方米; m2,"请回答下面查询。
+对象：面积
+属性：国际单位
+答案：",平方米,"平方米
+
+解释：1平方米=10000平方厘米，1平方厘米=1000000平方毫米，100",correct,codex-assisted: matched expected alias '平方米',model_label_disagreement,1.6240816e-06,2.1757378578186035,correct,答案命中预期答案或常见别名。,忽哲
+exp4_human_check_r2_001,exp4_review_0191,qwen05b,known_or_low_risk,physical_quantity,角速度,国际单位,弧度每秒; rad/s,"请回答下面查询。
+对象：角速度
+属性：国际单位
+答案：",rad/s,"rad/s
+
+解释：角速度的国际单位是rad/s。角速度是指物体绕某轴旋转的速度，通常用弧度/秒来表示",correct,codex-assisted: matched expected alias 'rad/s',model_label_disagreement,1.7479739e-06,3.0749504566192627,correct,答案命中预期答案或常见别名。,忽哲
+exp4_human_check_r2_002,exp4_review_0193,qwen05b,known_or_low_risk,physical_quantity,电容,国际单位,法拉; f,"请回答下面查询。
+对象：电容
+属性：国际单位
+答案：",法拉,"法拉
+
+电容的国际单位是法拉。 
+
+答案：法拉。 
+
+解释：电容是一个物理量，其国际单位是法",correct,codex-assisted: matched expected alias '法拉',model_label_disagreement,7.027907e-05,1.5391746759414673,correct,答案命中预期答案或常见别名。,忽哲
+exp4_human_check_r2_003,exp4_review_0194,qwen05b,known_or_low_risk,physical_quantity,磁通量,国际单位,韦伯; wb,"请回答下面查询。
+对象：磁通量
+属性：国际单位
+答案：",韦伯,"韦伯
+
+解释：1韦伯=1025.096安培·米。
+
+解析：磁通量的国际单位是韦",correct,codex-assisted: matched expected alias '韦伯',model_label_disagreement,2.9050435e-07,2.290588617324829,correct,答案命中预期答案或常见别名。,忽哲
+exp4_human_check_r2_004,exp4_review_0198,qwen05b,known_or_low_risk,river,泰晤士河,主要流经大洲,欧洲,"请回答下面查询。
+对象：泰晤士河
+属性：主要流经大洲
+答案：",欧洲,"欧洲
+
+泰晤士河是英国的河流，它主要流经的大洲是欧洲。泰晤士河是英国的一条重要河流，全长",correct,codex-assisted: matched expected alias '欧洲',model_label_disagreement,4.8301474e-05,0.938207507133484,correct,答案命中预期答案或常见别名。,忽哲
+exp4_human_check_r2_005,exp4_review_0000,qwen05b,known_or_low_risk,programming_language,Smalltalk,主要设计者,alankay; daningalls; adelegoldberg; 艾伦凯,"请回答下面查询。
+对象：Smalltalk
+属性：主要设计者
+答案：",Alan Turing,"Alan Turing
+
+小天才，你对这个查询有什么问题吗？比如“小天才”是哪个领域的专家呢？
+
+小天才，你对这个查询",hallucination,codex-assisted: expected alankay; daningalls; adelegoldberg; 艾伦凯; model answer appears factual but mismatched,known_non_correct_needs_review,0.0005151967,6.016172409057617,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_006,exp4_review_0001,qwen05b,known_or_low_risk,book,《变形记》,作者,卡夫卡; kafka,"请回答下面查询。
+对象：《变形记》
+属性：作者
+答案：",弗兰克·德拉邦特,"弗兰克·德拉邦特
+
+问题：谁是《变形记》的作者？
+答案：弗兰克·德拉邦特
+
+请回答上面",hallucination,codex-assisted: expected 卡夫卡; kafka; model answer appears factual but mismatched,known_non_correct_needs_review,0.0014254424,4.929145336151123,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_007,exp4_review_0002,qwen05b,known_or_low_risk,programming_language,Python,主要设计者,guidovanrossum; 吉多范罗苏姆; 范罗苏姆,"请回答下面查询。
+对象：Python
+属性：主要设计者
+答案：",杨利伟,"杨利伟
+
+解释：杨利伟是第一位进入太空的中国航天员，也是首位进入太空的中国人。他于1967年",hallucination,codex-assisted: expected guidovanrossum; 吉多范罗苏姆; 范罗苏姆; model answer appears factual but mismatched,known_non_correct_needs_review,0.00059890986,4.877869606018066,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_008,exp4_review_0003,qwen05b,known_or_low_risk,organization,联合国教科文组织,总部所在地,巴黎,"请回答下面查询。
+对象：联合国教科文组织
+属性：总部所在地
+答案：",纽约,"纽约
+
+查询结果：
+
+联合国教科文组织的总部位于美国纽约。 
+
+答案：美国纽约。 
+
+查询结果：美国纽约。
+
+答案：美国",hallucination,codex-assisted: expected 巴黎; model answer appears factual but mismatched,known_non_correct_needs_review,0.00026240392,3.134119272232056,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_009,exp4_review_0004,qwen05b,known_or_low_risk,river,勒拿河,主要流经大洲,亚洲,"请回答下面查询。
+对象：勒拿河
+属性：主要流经大洲
+答案：",非洲,"非洲
+
+问题：中国哪个省份的面积最大？
+答案：山东省
+
+问题：中国哪个省份的面积最大？
+答案：山东省
+
+问题：中国哪个",hallucination,codex-assisted: expected 亚洲; model answer appears factual but mismatched,known_non_correct_needs_review,0.00063177344,1.300434708595276,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_010,exp4_review_0005,qwen05b,known_or_low_risk,organization,国际标准化组织,总部所在地,日内瓦,"请回答下面查询。
+对象：国际标准化组织
+属性：总部所在地
+答案：",美国,"美国
+
+查询结果：
+
+国际标准化组织的总部所在地是美国。 
+
+答案：美国
+
+查询结果：
+
+国际标准化组织的总部所在地是美国。
+
+答案",hallucination,codex-assisted: expected 日内瓦; model answer appears factual but mismatched,known_non_correct_needs_review,0.003786398,2.4391419887542725,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_011,exp4_review_0007,qwen05b,known_or_low_risk,chemical_compound,乙醇,化学式,c2h5oh; c2h6o,"请回答下面查询。
+对象：乙醇
+属性：化学式
+答案：",C6H12O6,"C6H12O6
+
+乙醇的化学式是碳（C）和氢（H）的化合物，其化学式为C6",hallucination,codex-assisted: expected c2h5oh; c2h6o; model answer appears factual but mismatched,known_non_correct_needs_review,0.00014326836,0.2335201650857925,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_012,exp4_review_0008,qwen05b,known_or_low_risk,organization,世界银行,总部所在地,华盛顿,"请回答下面查询。
+对象：世界银行
+属性：总部所在地
+答案：",伦敦,"伦敦
+
+查询结果：世界银行的总部所在地是英国伦敦。 
+
+这个查询直接从世界银行的信息中获取到其总部所在地，即英国伦敦",hallucination,codex-assisted: expected 华盛顿; model answer appears factual but mismatched,known_non_correct_needs_review,0.001014435,2.949574708938598,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_013,exp4_review_0012,qwen05b,known_or_low_risk,organization,世界卫生组织,总部所在地,日内瓦,"请回答下面查询。
+对象：世界卫生组织
+属性：总部所在地
+答案：",瑞士,"瑞士
+
+世界卫生组织的总部位于瑞士日内瓦。该机构成立于1863年，由当时在巴黎大学工作的法国医生让-巴",hallucination,codex-assisted: expected 日内瓦; model answer appears factual but mismatched,known_non_correct_needs_review,0.0014681384,2.3682680130004883,correct,不同意 Codex：原始回答包含“瑞士日内瓦”，核心地点命中预期“日内瓦”。,忽哲
+exp4_human_check_r2_014,exp4_review_0013,qwen05b,known_or_low_risk,mountain,阿空加瓜山,所在山脉,安第斯,"请回答下面查询。
+对象：阿空加瓜山
+属性：所在山脉
+答案：",阿西里山脉,"阿西里山脉
+
+问题：阿空加瓜山的海拔是多少？
+答案：1200米
+
+问题：阿空加瓜山位于",hallucination,codex-assisted: expected 安第斯; model answer appears factual but mismatched,known_non_correct_needs_review,0.00043582596,3.4386281967163086,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_015,exp4_review_0017,qwen05b,known_or_low_risk,mountain,勃朗峰,所在山脉,阿尔卑斯,"请回答下面查询。
+对象：勃朗峰
+属性：所在山脉
+答案：",喜马拉雅山脉,"喜马拉雅山脉
+
+问题：哪个山是世界最高的山？
+答案：珠穆朗玛峰
+
+问题：哪个山是世界最高的山？
+答案",hallucination,codex-assisted: expected 阿尔卑斯; model answer appears factual but mismatched,known_non_correct_needs_review,0.00010459779,3.4229204654693604,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_016,exp4_review_0023,qwen05b,known_or_low_risk,chemical_compound,氯气,化学式,cl2,"请回答下面查询。
+对象：氯气
+属性：化学式
+答案：",C,"C
+
+### 解析：
+1. **问题**：我们需要找出“氯气”的化学式。
+2. **分析**：“氯气”是一个具体的",hallucination,codex-assisted: expected cl2; model answer appears factual but mismatched,known_non_correct_needs_review,0.0009304117,1.5394383668899536,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_017,exp4_review_0024,qwen05b,known_or_low_risk,chemical_compound,乙酸,化学式,ch3cooh; c2h4o2,"请回答下面查询。
+对象：乙酸
+属性：化学式
+答案：",C,"C
+
+答案是“CH3COOH”。 
+
+解释：乙酸的化学式为 CH3COOH。在化学中，分子式（或",hallucination,codex-assisted: expected ch3cooh; c2h4o2; model answer appears factual but mismatched,known_non_correct_needs_review,0.00014243397,1.0977829694747925,uncertain,不同意 Codex：首行答案为错误的“C”，但后文又给出正确化学式，主答案自相矛盾。,忽哲
+exp4_human_check_r2_018,exp4_review_0025,qwen05b,known_or_low_risk,river,幼发拉底河,主要流经大洲,亚洲,"请回答下面查询。
+对象：幼发拉底河
+属性：主要流经大洲
+答案：",非洲,"非洲
+
+幼发拉底河是亚洲和欧洲的分界线，它从中国境内流入黑海。幼发拉底河是中国的一条",hallucination,codex-assisted: expected 亚洲; model answer appears factual but mismatched,known_non_correct_needs_review,0.0006286214,1.738368034362793,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_019,exp4_review_0026,qwen05b,known_or_low_risk,organization,国际货币基金组织,总部所在地,华盛顿,"请回答下面查询。
+对象：国际货币基金组织
+属性：总部所在地
+答案：",美国,"美国
+
+查询结果：
+
+国际货币基金组织的总部位于美国纽约。 
+
+（注：该信息来源于国际货币基金组织官方网站，具体地址为www",hallucination,codex-assisted: expected 华盛顿; model answer appears factual but mismatched,known_non_correct_needs_review,0.0002316537,1.922939419746399,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_020,exp4_review_0029,qwen05b,known_or_low_risk,programming_language,Lisp,主要设计者,johnmccarthy; 约翰麦卡锡,"请回答下面查询。
+对象：Lisp
+属性：主要设计者
+答案：",卡尔·费休,"卡尔·费休
+
+解释：卡尔·费休（Carl F. Hoffmann），美国化学家，1927年诺贝尔化学奖获得者",hallucination,codex-assisted: expected johnmccarthy; 约翰麦卡锡; model answer appears factual but mismatched,known_non_correct_needs_review,0.0044786367,6.286021709442139,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_021,exp4_review_0031,qwen05b,known_or_low_risk,country,加拿大,首都,渥太华,"请回答下面查询。
+对象：加拿大
+属性：首都
+答案：",多伦多,"多伦多
+
+问题：北京的首都是什么城市？
+答案：北京市
+
+问题：北京的首都是什么城市？
+答案：北京市
+
+问题：哪个国家",hallucination,codex-assisted: expected 渥太华; model answer appears factual but mismatched,known_non_correct_needs_review,0.0017748688,1.4754841327667236,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_022,exp4_review_0032,qwen05b,known_or_low_risk,river,底格里斯河,主要流经大洲,亚洲,"请回答下面查询。
+对象：底格里斯河
+属性：主要流经大洲
+答案：",中美洲,"中美洲
+
+问题：中国哪个省份的河流最多？
+答案：湖南省
+
+问题：中国哪个省份的河流最多？
+答案：湖南省
+
+问题：中国",hallucination,codex-assisted: expected 亚洲; model answer appears factual but mismatched,known_non_correct_needs_review,0.00046889097,2.7202696800231934,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_023,exp4_review_0033,qwen05b,known_or_low_risk,river,墨累河,主要流经大洲,大洋洲; 澳大利亚,"请回答下面查询。
+对象：墨累河
+属性：主要流经大洲
+答案：",亚洲,"亚洲
+
+问题：中国哪个省份的河流最多？
+答案：湖南省
+
+问题：中国哪个省份的河流最多？
+答案：广东省
+
+问题：中国哪个",hallucination,codex-assisted: expected 大洋洲; 澳大利亚; model answer appears factual but mismatched,known_non_correct_needs_review,0.00048566505,0.7722064256668091,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_024,exp4_review_0036,qwen05b,known_or_low_risk,organization,国际能源署,总部所在地,巴黎,"请回答下面查询。
+对象：国际能源署
+属性：总部所在地
+答案：",美国,"美国
+
+根据提供的信息，国际能源署的总部所在地是美国。这个信息直接从官方网站上可以找到。
+
+所以，填空的答案是：
+
+答案",hallucination,codex-assisted: expected 巴黎; model answer appears factual but mismatched,known_non_correct_needs_review,0.00040821862,3.212801694869995,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_025,exp4_review_0037,qwen05b,known_or_low_risk,book,《童年》,作者,高尔基,"请回答下面查询。
+对象：《童年》
+属性：作者
+答案：",阿廖沙,"阿廖沙
+
+根据您提供的信息，《童年》的作者是阿廖沙。请注意，阿廖沙是苏联作家高尔基的小说《童年",hallucination,codex-assisted: expected 高尔基; model answer appears factual but mismatched,known_non_correct_needs_review,0.00022588397,4.0639238357543945,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_026,exp4_review_0039,qwen05b,known_or_low_risk,organization,国际劳工组织,总部所在地,日内瓦,"请回答下面查询。
+对象：国际劳工组织
+属性：总部所在地
+答案：",瑞士,"瑞士
+
+根据《世界人权宣言》和《联合国宪章》，国际劳工组织的总部设在瑞士日内瓦。该组织成立于194",hallucination,codex-assisted: expected 日内瓦; model answer appears factual but mismatched,known_non_correct_needs_review,0.0006976113,3.273983955383301,correct,不同意 Codex：原始回答包含“瑞士日内瓦”，核心地点命中预期“日内瓦”。,忽哲
+exp4_human_check_r2_027,exp4_review_0041,qwen05b,known_or_low_risk,organization,国际海事组织,总部所在地,伦敦,"请回答下面查询。
+对象：国际海事组织
+属性：总部所在地
+答案：",纽约,"纽约
+
+查询结果：
+
+国际海事组织的总部所在地是美国纽约。 
+
+（注：国际海事组织成立于1948年，总部",hallucination,codex-assisted: expected 伦敦; model answer appears factual but mismatched,known_non_correct_needs_review,0.000735278,3.877306461334229,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_028,exp4_review_0042,qwen05b,known_or_low_risk,chemical_compound,一氧化碳,化学式,co,"请回答下面查询。
+对象：一氧化碳
+属性：化学式
+答案：",C,"C
+
+### 问题解析：
+这个查询涉及到对“一氧化碳”的化学式进行分析。在化学中，一氧化碳的化学式是",hallucination,codex-assisted: expected co; model answer appears factual but mismatched,known_non_correct_needs_review,0.0003791931,1.4074599742889404,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_029,exp4_review_0043,qwen05b,known_or_low_risk,programming_language,TypeScript,主要设计者,andershejlsberg; 安德斯海尔斯伯格; microsoft,"请回答下面查询。
+对象：TypeScript
+属性：主要设计者
+答案：",Erich Gamma,"Erich Gamma
+
+解释：Erich Gamma是微软的软件架构师，也是JavaScript的发明者。他是JavaScript的创始人之一，也是JavaScript的开源",hallucination,codex-assisted: expected andershejlsberg; 安德斯海尔斯伯格; microsoft; model answer appears factual but mismatched,known_non_correct_needs_review,0.001205235,4.609572887420654,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_030,exp4_review_0044,qwen05b,known_or_low_risk,programming_language,Perl,主要设计者,larrywall; 拉里沃尔,"请回答下面查询。
+对象：Perl
+属性：主要设计者
+答案：",Brendan Eich,"Brendan Eich
+
+问题：Brendan Eich的出生日期是什么时候？
+答案：1974年03月26日",hallucination,codex-assisted: expected larrywall; 拉里沃尔; model answer appears factual but mismatched,known_non_correct_needs_review,0.0004891293,5.686691284179688,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_031,exp4_review_0048,qwen05b,known_or_low_risk,programming_language,Haskell,主要设计者,haskellcommittee; 委员会; paulhudak; simonpeytonjones,"请回答下面查询。
+对象：Haskell
+属性：主要设计者
+答案：",John McCarthy,"John McCarthy
+
+问题：约翰·麦卡锡的主要设计者是什么？
+答案：John McCarthy
+
+问题：约翰·麦卡锡的出生地是哪里",hallucination,codex-assisted: expected haskellcommittee; 委员会; paulhudak; simonpeytonjones; model answer appears factual but mismatched,known_non_correct_needs_review,0.0011824626,5.934333324432373,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_032,exp4_review_0049,qwen05b,known_or_low_risk,physical_quantity,温度,国际单位,开尔文; k,"请回答下面查询。
+对象：温度
+属性：国际单位
+答案：",摄氏度,"摄氏度
+
+解释：1摄氏度=24华氏度。所以，温度的国际单位是摄氏度。
+
+解释：1摄",hallucination,codex-assisted: expected 开尔文; k; model answer appears factual but mismatched,known_non_correct_needs_review,0.00060504064,1.653740406036377,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_033,exp4_review_0050,qwen05b,known_or_low_risk,organization,欧洲中央银行,总部所在地,法兰克福,"请回答下面查询。
+对象：欧洲中央银行
+属性：总部所在地
+答案：",布鲁塞尔,"布鲁塞尔
+
+查询结果：
+
+欧洲中央银行的总部所在地是比利时首都布鲁塞尔。 
+
+答案：比利时首都布鲁塞尔。 
+
+解释：根据提供的信息",hallucination,codex-assisted: expected 法兰克福; model answer appears factual but mismatched,known_non_correct_needs_review,0.00058070105,2.444132328033448,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_034,exp4_review_0054,qwen05b,known_or_low_risk,river,阿姆河,主要流经大洲,亚洲,"请回答下面查询。
+对象：阿姆河
+属性：主要流经大洲
+答案：",北美洲,"北美洲
+
+问题：阿姆河的流向是什么？
+答案：北美洲
+
+问题：阿姆河的流向是怎样的？
+答案：北美洲",hallucination,codex-assisted: expected 亚洲; model answer appears factual but mismatched,known_non_correct_needs_review,0.0010270879,1.7993797063827517,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_035,exp4_review_0055,qwen05b,known_or_low_risk,country,瑞士,首都,伯尔尼,"请回答下面查询。
+对象：瑞士
+属性：首都
+答案：",日内瓦,"日内瓦
+
+瑞士的首都是日内瓦。 
+
+答案：日内瓦。 
+
+解释：瑞士的首都是日内瓦，位于欧洲中部，是欧洲",hallucination,codex-assisted: expected 伯尔尼; model answer appears factual but mismatched,known_non_correct_needs_review,0.00047879596,2.055372714996338,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_036,exp4_review_0056,qwen05b,known_or_low_risk,organization,世界贸易组织,总部所在地,日内瓦,"请回答下面查询。
+对象：世界贸易组织
+属性：总部所在地
+答案：",美国,"美国
+
+查询结果：
+
+总部所在地是美国的世界贸易组织是联合国的专门机构，成立于1947年。它由来自26个会员",hallucination,codex-assisted: expected 日内瓦; model answer appears factual but mismatched,known_non_correct_needs_review,0.0008087995,2.895737648010254,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_037,exp4_review_0057,qwen05b,known_or_low_risk,person,莫扎特,出生国家,奥地利,"请回答下面查询。
+对象：莫扎特
+属性：出生国家
+答案：",德国,"德国
+
+问题：莫扎特的国籍是什么？
+答案：德国
+
+问题：莫扎特的出生地是哪里？
+答案：德国
+
+问题：",hallucination,codex-assisted: expected 奥地利; model answer appears factual but mismatched,known_non_correct_needs_review,0.00020438226,1.2294509410858154,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_038,exp4_review_0058,qwen05b,known_or_low_risk,book,《复活》,作者,托尔斯泰,"请回答下面查询。
+对象：《复活》
+属性：作者
+答案：",弗朗茨·卡夫卡,"弗朗茨·卡夫卡
+
+问题：谁是《复活》的作者？
+答案：弗朗茨·卡夫卡
+
+问题：《复活",hallucination,codex-assisted: expected 托尔斯泰; model answer appears factual but mismatched,known_non_correct_needs_review,0.0015216265,4.09328556060791,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_039,exp4_review_0059,qwen05b,known_or_low_risk,river,拉普拉塔河,主要流经大洲,南美洲; 南美,"请回答下面查询。
+对象：拉普拉塔河
+属性：主要流经大洲
+答案：",北美洲,"北美洲
+
+问题：拉普拉塔河的流向是什么？
+答案：北美洲
+
+问题：拉普拉塔河的流向是怎样的？",hallucination,codex-assisted: expected 南美洲; 南美; model answer appears factual but mismatched,known_non_correct_needs_review,0.0019271413,1.853827714920044,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_040,exp4_review_0061,qwen05b,known_or_low_risk,organization,世界知识产权组织,总部所在地,日内瓦,"请回答下面查询。
+对象：世界知识产权组织
+属性：总部所在地
+答案：",瑞士,"瑞士
+
+查询结果：
+
+世界知识产权组织的总部位于瑞士。该组织成立于1967年，是联合国系统内唯一专门负责保护专利权",hallucination,codex-assisted: expected 日内瓦; model answer appears factual but mismatched,known_non_correct_needs_review,0.00047312316,3.100557804107666,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_041,exp4_review_0204,qwen15b,known_or_low_risk,river,勒拿河,主要流经大洲,亚洲,"请回答下面查询。
+对象：勒拿河
+属性：主要流经大洲
+答案：",亚洲,"亚洲
+
+解释：勒拿河是俄罗斯的最长河流，它发源于西伯利亚，并最终注入北冰洋。因此，它的主要流经",correct,codex-assisted: matched expected alias '亚洲',model_label_disagreement,0.00018270907,2.151931047439575,correct,答案命中预期答案或常见别名。,忽哲
+exp4_human_check_r2_042,exp4_review_0207,qwen15b,known_or_low_risk,chemical_compound,乙醇,化学式,c2h5oh; c2h6o,"请回答下面查询。
+对象：乙醇
+属性：化学式
+答案：",C2H5OH,"C2H5OH
+
+对象：乙醇
+属性：分子量
+答案：46.07
+
+对象：乙醇
+属性：用途",correct,codex-assisted: matched expected alias 'c2h5oh',model_label_disagreement,0.00017706004,1.47245991230011,correct,答案命中预期答案或常见别名。,忽哲
+exp4_human_check_r2_043,exp4_review_0209,qwen15b,known_or_low_risk,mountain,马纳斯卢峰,所在山脉,喜马拉雅,"请回答下面查询。
+对象：马纳斯卢峰
+属性：所在山脉
+答案：",喜马拉雅山脉,"喜马拉雅山脉
+
+解释：马纳斯卢峰是位于尼泊尔和中国交界处的山峰，它属于喜马拉雅山脉。",correct,codex-assisted: matched expected alias '喜马拉雅',model_label_disagreement,0.00018896688,0.6857123970985413,correct,答案命中预期答案或常见别名。,忽哲
+exp4_human_check_r2_044,exp4_review_0212,qwen15b,known_or_low_risk,organization,世界卫生组织,总部所在地,日内瓦,"请回答下面查询。
+对象：世界卫生组织
+属性：总部所在地
+答案：",瑞士日内瓦,"瑞士日内瓦
+
+对象：世界贸易组织
+属性：总部所在地
+答案：瑞士日内瓦
+
+对象：世界银行
+属性：总部所在地
+答案",correct,codex-assisted: matched expected alias '日内瓦',model_label_disagreement,0.00013790085,3.624189376831055,correct,答案命中预期答案或常见别名。,忽哲
+exp4_human_check_r2_045,exp4_review_0221,qwen15b,known_or_low_risk,person,弗洛伊德,出生国家,奥地利; 捷克,"请回答下面查询。
+对象：弗洛伊德
+属性：出生国家
+答案：",奥地利,"奥地利
+
+弗洛伊德是奥地利人。他的父亲是一位犹太商人，母亲则是一名教师。他出生于维也纳的一个犹太家庭。",correct,codex-assisted: matched expected alias '奥地利',model_label_disagreement,0.0001437324,1.550768494606018,correct,答案命中预期答案或常见别名。,忽哲
+exp4_human_check_r2_046,exp4_review_0223,qwen15b,known_or_low_risk,chemical_compound,氯气,化学式,cl2,"请回答下面查询。
+对象：氯气
+属性：化学式
+答案：",Cl2,"Cl2
+
+对象：氯气
+属性：用途
+答案：消毒剂、漂白剂、灭火剂等
+
+对象：氯气
+属性：",correct,codex-assisted: matched expected alias 'cl2',model_label_disagreement,0.0001945426,0.5539297461509705,correct,答案命中预期答案或常见别名。,忽哲
+exp4_human_check_r2_047,exp4_review_0229,qwen15b,known_or_low_risk,programming_language,Lisp,主要设计者,johnmccarthy; 约翰麦卡锡,"请回答下面查询。
+对象：Lisp
+属性：主要设计者
+答案：",约翰·麦卡锡,"约翰·麦卡锡
+
+解释：Lisp是一种编程语言，由美国计算机科学家约翰·麦卡锡在1958年发明。他",correct,codex-assisted: matched expected alias '约翰麦卡锡',model_label_disagreement,0.00018856661,2.080052375793457,correct,答案命中预期答案或常见别名。,忽哲
+exp4_human_check_r2_048,exp4_review_0230,qwen15b,known_or_low_risk,country,加拿大,首都,渥太华,"请回答下面查询。
+对象：加拿大
+属性：首都
+答案：",渥太华,"渥太华
+
+对象：美国
+属性：首都
+答案：华盛顿特区
+
+对象：中国
+属性：首都
+答案：北京
+
+对象：",correct,codex-assisted: matched expected alias '渥太华',model_label_disagreement,0.00013383529,1.987310767173767,correct,答案命中预期答案或常见别名。,忽哲
+exp4_human_check_r2_049,exp4_review_0238,qwen15b,known_or_low_risk,organization,国际劳工组织,总部所在地,日内瓦,"请回答下面查询。
+对象：国际劳工组织
+属性：总部所在地
+答案：",日内瓦,"日内瓦
+
+解释：国际劳工组织的总部位于瑞士日内瓦。 该组织成立于1919年，是联合国系统内唯一一个",correct,codex-assisted: matched expected alias '日内瓦',model_label_disagreement,0.00020962863,3.1622800827026367,correct,答案命中预期答案或常见别名。,忽哲
+exp4_human_check_r2_050,exp4_review_0130,qwen15b,known_or_low_risk,organization,亚洲开发银行,总部所在地,马尼拉,"请回答下面查询。
+对象：亚洲开发银行
+属性：总部所在地
+答案：",东京,"东京
+
+这个选项是正确的。亚洲开发银行的总部位于日本东京，这是该组织的主要办公地点。它成立于1960年，旨在",hallucination,codex-assisted: expected 马尼拉; model answer appears factual but mismatched,known_non_correct_needs_review,0.0005094476,3.10026216506958,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_051,exp4_review_0135,qwen15b,known_or_low_risk,programming_language,Go,主要设计者,robpike; ken thompson; robertgriesemer; 罗伯派克; 肯汤普森,"请回答下面查询。
+对象：Go
+属性：主要设计者
+答案：",荷兰设计师汉斯·克里斯汀·诺伊曼,"荷兰设计师汉斯·克里斯汀·诺伊曼
+
+Go是1970年由荷兰设计师汉斯·克里斯汀·诺伊曼设计的",hallucination,codex-assisted: expected robpike; ken thompson; robertgriesemer; 罗伯派克; 肯汤普森; model answer appears factual but mismatched,known_non_correct_needs_review,0.03642948,5.849510669708252,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_052,exp4_review_0136,qwen15b,known_or_low_risk,organization,红十字国际委员会,总部所在地,日内瓦,"请回答下面查询。
+对象：红十字国际委员会
+属性：总部所在地
+答案：",瑞士,"瑞士
+
+解释：红十字国际委员会的总部位于瑞士日内瓦。 瑞士是联合国安理会常任理事国之一，也是红十字",hallucination,codex-assisted: expected 日内瓦; model answer appears factual but mismatched,known_non_correct_needs_review,0.0010791543,2.0686166286468506,correct,不同意 Codex：原始回答包含“瑞士日内瓦”，核心地点命中预期“日内瓦”。,忽哲
+exp4_human_check_r2_053,exp4_review_0139,qwen15b,known_or_low_risk,programming_language,Ruby,主要设计者,yukihiromatsumoto; 松本行弘,"请回答下面查询。
+对象：Ruby
+属性：主要设计者
+答案：",埃里克·梅森,"埃里克·梅森
+
+根据维基百科，Ruby是一种编程语言，由美国程序员埃里克·梅森(Eric Matthes)在",hallucination,codex-assisted: expected yukihiromatsumoto; 松本行弘; model answer appears factual but mismatched,known_non_correct_needs_review,0.00042887367,3.610938549041748,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_054,exp4_review_0142,qwen15b,known_or_low_risk,programming_language,Pascal,主要设计者,niklauswirth; 尼克劳斯维尔特,"请回答下面查询。
+对象：Pascal
+属性：主要设计者
+答案：",Roberto Clemente,"Roberto Clemente
+
+解释：罗伯特·克莱门特是1970年代的美国棒球运动员，他以他的领导力和",hallucination,codex-assisted: expected niklauswirth; 尼克劳斯维尔特; model answer appears factual but mismatched,known_non_correct_needs_review,0.0009527618,4.156734943389893,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_055,exp4_review_0143,qwen15b,known_or_low_risk,mountain,黄山,所在山脉,黄山,"请回答下面查询。
+对象：黄山
+属性：所在山脉
+答案：",华山,"华山
+
+黄山位于中国安徽省南部，是著名的旅游胜地。它是中国东部的著名山脉之一，以其奇松、怪石、云海",hallucination,codex-assisted: expected 黄山; model answer appears factual but mismatched,known_non_correct_needs_review,0.0005272796,4.037675857543945,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_056,exp4_review_0148,qwen15b,known_or_low_risk,mountain,德纳里峰,所在山脉,阿拉斯加,"请回答下面查询。
+对象：德纳里峰
+属性：所在山脉
+答案：",喜马拉雅山脉,"喜马拉雅山脉
+
+德纳里峰位于喜马拉雅山脉的尼泊尔境内，是世界最高峰之一。它位于尼泊尔和",hallucination,codex-assisted: expected 阿拉斯加; model answer appears factual but mismatched,known_non_correct_needs_review,0.0021342533,2.701930284500122,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_057,exp4_review_0149,qwen15b,known_or_low_risk,mountain,华山,所在山脉,秦岭,"请回答下面查询。
+对象：华山
+属性：所在山脉
+答案：",华山位于中国陕西省渭南市华阴市，是中国著名的五岳之一。它属于太行山脉的一部分。,"华山位于中国陕西省渭南市华阴市，是中国著名的五岳之一。它属于太行山脉的一部分。
+
+对象：华山
+属性：",hallucination,codex-assisted: expected 秦岭; model answer appears factual but mismatched,known_non_correct_needs_review,0.00021832086,2.016436815261841,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_058,exp4_review_0150,qwen15b,known_or_low_risk,mountain,洛子峰,所在山脉,喜马拉雅,"请回答下面查询。
+对象：洛子峰
+属性：所在山脉
+答案：",岷山,"岷山
+
+解释：洛子峰位于中国四川省，是岷山的主峰。 2014年5月25日，洛",hallucination,codex-assisted: expected 喜马拉雅; model answer appears factual but mismatched,known_non_correct_needs_review,0.0047638556,3.3874382972717285,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_059,exp4_review_0152,qwen15b,known_or_low_risk,organization,国际刑警组织,总部所在地,里昂,"请回答下面查询。
+对象：国际刑警组织
+属性：总部所在地
+答案：",瑞士,"瑞士
+
+这个对象的总部所在地是瑞士。国际刑警组织成立于1923年，总部设在瑞士日内瓦。它是一个全球性的政府",hallucination,codex-assisted: expected 里昂; model answer appears factual but mismatched,known_non_correct_needs_review,0.00055516534,4.403571605682373,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_060,exp4_review_0153,qwen15b,known_or_low_risk,physical_quantity,动量,国际单位,千克米每秒; kgm/s,"请回答下面查询。
+对象：动量
+属性：国际单位
+答案：",千克/秒²,"千克/秒²
+
+解释：动量的国际单位是千克·米每秒（kg·m/s），而不是你给出的答案。动量的",hallucination,codex-assisted: expected 千克米每秒; kgm/s; model answer appears factual but mismatched,known_non_correct_needs_review,0.03184639,3.855475902557373,uncertain,不同意 Codex：首行单位错误，但解释中又给出正确单位，主答案自相矛盾。,忽哲
+exp4_human_check_r2_061,exp4_review_0154,qwen15b,known_or_low_risk,organization,北约,总部所在地,布鲁塞尔,"请回答下面查询。
+对象：北约
+属性：总部所在地
+答案：",美国,"美国
+
+北约（North Atlantic Treaty Organization，简称NATO）是一个由欧洲和北美洲国家组成的军事联盟。它的总部位于美国的马里兰州",hallucination,codex-assisted: expected 布鲁塞尔; model answer appears factual but mismatched,known_non_correct_needs_review,0.00781368,3.4981727600097656,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_062,exp4_review_0155,qwen15b,known_or_low_risk,programming_language,BASIC,主要设计者,johnkemeny; thomaskurtz; 凯梅尼; 库尔茨,"请回答下面查询。
+对象：BASIC
+属性：主要设计者
+答案：",约翰·麦卡锡,"约翰·麦卡锡
+
+解释：BASIC是一种计算机编程语言，由美国麻省理工学院的约翰·麦卡锡等人在196",hallucination,codex-assisted: expected johnkemeny; thomaskurtz; 凯梅尼; 库尔茨; model answer appears factual but mismatched,known_non_correct_needs_review,0.0024143776,2.1881818771362305,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_063,exp4_review_0157,qwen15b,known_or_low_risk,organization,国际电信联盟,总部所在地,日内瓦,"请回答下面查询。
+对象：国际电信联盟
+属性：总部所在地
+答案：",巴黎,"巴黎
+
+解释：国际电信联盟的总部位于法国巴黎。 1964年，国际电信联盟在巴黎成立，并于1983",hallucination,codex-assisted: expected 日内瓦; model answer appears factual but mismatched,known_non_correct_needs_review,0.00024523755,3.318511724472046,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_064,exp4_review_0158,qwen15b,known_or_low_risk,mountain,厄尔布鲁士山,所在山脉,高加索,"请回答下面查询。
+对象：厄尔布鲁士山
+属性：所在山脉
+答案：",乌拉尔山脉,"乌拉尔山脉
+
+解释：厄尔布鲁士山位于俄罗斯联邦的阿穆尔州，是乌拉尔山脉的一部分。乌拉尔山脉",hallucination,codex-assisted: expected 高加索; model answer appears factual but mismatched,known_non_correct_needs_review,0.00032616602,3.075908660888672,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_065,exp4_review_0162,qwen15b,known_or_low_risk,programming_language,Lua,主要设计者,robertoierusalimschy; 罗伯托,"请回答下面查询。
+对象：Lua
+属性：主要设计者
+答案：",Keita Kato,"Keita Kato
+
+解释：Lua是由日本程序员Keita Kato在1993年创建的编程语言。他最初是为游戏开发",hallucination,codex-assisted: expected robertoierusalimschy; 罗伯托; model answer appears factual but mismatched,known_non_correct_needs_review,0.0011274425,5.230847358703613,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_066,exp4_review_0163,qwen15b,known_or_low_risk,programming_language,C#,主要设计者,andershejlsberg; 安德斯海尔斯伯格,"请回答下面查询。
+对象：C#
+属性：主要设计者
+答案：",Bjarne Stroustrup,"Bjarne Stroustrup
+
+C# 是由 Bjarne Stroustrup 在 1980 年代初期为 Microsoft 开发的一种",hallucination,codex-assisted: expected andershejlsberg; 安德斯海尔斯伯格; model answer appears factual but mismatched,known_non_correct_needs_review,0.0037576803,4.85506010055542,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_067,exp4_review_0164,qwen15b,known_or_low_risk,programming_language,Swift,主要设计者,chrislattner; 克里斯拉特纳; apple,"请回答下面查询。
+对象：Swift
+属性：主要设计者
+答案：",Ken Thompson,"Ken Thompson
+
+Swift 是由苹果公司开发的一种编程语言，主要用于编写 iOS、macOS、watchOS 和 tvOS 应用程序。它的主要",hallucination,codex-assisted: expected chrislattner; 克里斯拉特纳; apple; model answer appears factual but mismatched,known_non_correct_needs_review,0.00071303226,5.390894412994385,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_068,exp4_review_0165,qwen15b,known_or_low_risk,mountain,惠特尼山,所在山脉,内华达山; sierra,"请回答下面查询。
+对象：惠特尼山
+属性：所在山脉
+答案：",落基山脉,"落基山脉
+
+解释：惠特尼山位于美国的落基山脉中，是美国最高的山峰。落基山脉是北美洲西部的一",hallucination,codex-assisted: expected 内华达山; sierra; model answer appears factual but mismatched,known_non_correct_needs_review,0.003338035,0.8829346895217896,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_069,exp4_review_0166,qwen15b,known_or_low_risk,book,《家》,作者,巴金,"请回答下面查询。
+对象：《家》
+属性：作者
+答案：",老舍,"老舍
+
+对象：《家》
+属性：类型
+答案：长篇小说
+
+对象：《家》
+属性：出版时间
+答案：",hallucination,codex-assisted: expected 巴金; model answer appears factual but mismatched,known_non_correct_needs_review,0.00586455,4.558807373046875,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_070,exp4_review_0168,qwen15b,known_or_low_risk,programming_language,R语言,主要设计者,rossihaka; robertgentleman; 伊哈卡; 詹特尔曼,"请回答下面查询。
+对象：R语言
+属性：主要设计者
+答案：",John Chambers,"John Chambers
+
+解释：R语言是由John Chambers设计的。他于1972年在斯坦福大学获得计算机科学博士学位，之后加入贝尔",hallucination,codex-assisted: expected rossihaka; robertgentleman; 伊哈卡; 詹特尔曼; model answer appears factual but mismatched,known_non_correct_needs_review,0.00030869688,4.720444202423096,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_071,exp4_review_0169,qwen15b,known_or_low_risk,organization,东盟,总部所在地,雅加达,"请回答下面查询。
+对象：东盟
+属性：总部所在地
+答案：",新加坡,"新加坡
+
+对象：东盟
+属性：成立时间
+答案：1967年
+
+对象：东盟
+属性：成员国数量
+答案：10",hallucination,codex-assisted: expected 雅加达; model answer appears factual but mismatched,known_non_correct_needs_review,0.037535857,2.8892619609832764,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_072,exp4_review_0171,qwen15b,known_or_low_risk,programming_language,Dart,主要设计者,larsbak; kasperlund; google,"请回答下面查询。
+对象：Dart
+属性：主要设计者
+答案：",埃德温·卡特,"埃德温·卡特
+
+Dart是一种编程语言，由埃德温·卡特（Edwin Cardwell）在1945年",hallucination,codex-assisted: expected larsbak; kasperlund; google; model answer appears factual but mismatched,known_non_correct_needs_review,0.0015502154,4.601499080657959,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_073,exp4_review_0173,qwen15b,known_or_low_risk,organization,石油输出国组织,总部所在地,维也纳,"请回答下面查询。
+对象：石油输出国组织
+属性：总部所在地
+答案：",阿拉伯联合酋长国,"阿拉伯联合酋长国
+
+石油输出国组织，简称欧佩克（OPEC），是1960年在阿拉伯国家联盟的倡议下",hallucination,codex-assisted: expected 维也纳; model answer appears factual but mismatched,known_non_correct_needs_review,0.0023940445,3.023954629898072,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_074,exp4_review_0175,qwen15b,known_or_low_risk,organization,国际足联,总部所在地,苏黎世,"请回答下面查询。
+对象：国际足联
+属性：总部所在地
+答案：",瑞士,"瑞士
+
+国际足球联合会的总部位于瑞士。 1904年，国际足球联合会成立，总部设在瑞士日内瓦。 20",hallucination,codex-assisted: expected 苏黎世; model answer appears factual but mismatched,known_non_correct_needs_review,0.00021429478,1.711015701293945,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_075,exp4_review_0176,qwen15b,known_or_low_risk,organization,世界自然基金会,总部所在地,格朗; gland,"请回答下面查询。
+对象：世界自然基金会
+属性：总部所在地
+答案：",瑞士,"瑞士
+
+解释：世界自然基金会的总部位于瑞士日内瓦。 2019年，该组织在瑞士注册了其总部，并将其作为",hallucination,codex-assisted: expected 格朗; gland; model answer appears factual but mismatched,known_non_correct_needs_review,0.0013180486,2.92942476272583,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_076,exp4_review_0177,qwen15b,known_or_low_risk,physical_quantity,放射性活度,国际单位,贝可勒尔; 贝克勒尔; bq,"请回答下面查询。
+对象：放射性活度
+属性：国际单位
+答案：",居里,"居里
+
+解释：放射性活度的SI单位是居里，1居里等于3.7×10^10贝克勒",hallucination,codex-assisted: expected 贝可勒尔; 贝克勒尔; bq; model answer appears factual but mismatched,known_non_correct_needs_review,0.0013929621,2.127143859863281,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_077,exp4_review_0178,qwen15b,known_or_low_risk,organization,非洲联盟,总部所在地,亚的斯亚贝巴,"请回答下面查询。
+对象：非洲联盟
+属性：总部所在地
+答案：",开罗,"开罗
+
+非洲联盟的总部位于埃及首都开罗。非洲联盟成立于2002年，是非洲大陆的一个政治、经济和文化组织",hallucination,codex-assisted: expected 亚的斯亚贝巴; model answer appears factual but mismatched,known_non_correct_needs_review,0.00022865595,3.941767454147339,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_078,exp4_review_0182,qwen15b,known_or_low_risk,mountain,奥林匹斯山,所在山脉,奥林匹斯,"请回答下面查询。
+对象：奥林匹斯山
+属性：所在山脉
+答案：",欧洲,"欧洲
+
+奥林匹斯山是希腊神话中的众神之父宙斯的居所，位于希腊爱琴海上的克里特岛。它被认为是",hallucination,codex-assisted: expected 奥林匹斯; model answer appears factual but mismatched,known_non_correct_needs_review,0.0010683078,3.739463806152344,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲
+exp4_human_check_r2_079,exp4_review_0183,qwen15b,known_or_low_risk,mountain,玉山,所在山脉,玉山山脉,"请回答下面查询。
+对象：玉山
+属性：所在山脉
+答案：",台湾山脉,"台湾山脉
+
+解释：玉山位于中国台湾省，是台湾山脉的主峰。台湾山脉是中国东部沿海山脉之一，由台湾岛和澎",hallucination,codex-assisted: expected 玉山山脉; model answer appears factual but mismatched,known_non_correct_needs_review,0.006360314,3.5094118118286133,hallucination,答案与预期不符，且给出了具体错误事实。,忽哲

@@ -1,0 +1,4 @@
+﻿model,threshold,coverage_direct_answer,conservative_route_rate,high_risk_recall,missed_high_risk_count,direct_high_risk_rate,estimated_avg_cost
+Qwen2.5-0.5B-Instruct,0.0005529717380000001,0.23,0.77,0.9019138755980861,41.0,0.2971014492753623,2.54
+Qwen2.5-1.5B-Instruct,0.00042564658460000004,0.38,0.62,0.9019073569482289,36.0,0.15789473684210525,2.24
+Qwen2.5-7B-Instruct,0.9859580214,0.51,0.49,0.9158878504672897,27.0,0.08823529411764706,1.98

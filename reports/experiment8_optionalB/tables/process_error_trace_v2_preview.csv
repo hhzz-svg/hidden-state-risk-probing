@@ -1,0 +1,239 @@
+﻿id,trace_id,pair_id,version,problem,step_index,num_steps,step_text,step_prefix_text,label,label_name,error_type,correct_answer,target_definition
+pe_v2_0000_correct_step1,pe_v2_0000,pe_v2_0000_step1,paired_step_v2,计算 18 + 28 + 11。,1,3,步骤1：先计算 18 + 28 = 46。,"题目：计算 18 + 28 + 11。
+步骤1：先计算 18 + 28 = 46。",0,step_correct,none,57,step_correct_vs_step_incorrect
+pe_v2_0000_incorrect_step1,pe_v2_0000,pe_v2_0000_step1,paired_step_v2,计算 18 + 28 + 11。,1,3,步骤1：先计算 18 + 28 = 47。,"题目：计算 18 + 28 + 11。
+步骤1：先计算 18 + 28 = 47。",1,step_incorrect,first_addition_error,57,step_correct_vs_step_incorrect
+pe_v2_0000_correct_step2,pe_v2_0000,pe_v2_0000_step2,paired_step_v2,计算 18 + 28 + 11。,2,3,步骤2：再计算 46 + 11 = 57。,"题目：计算 18 + 28 + 11。
+步骤1：先计算 18 + 28 = 46。
+步骤2：再计算 46 + 11 = 57。",0,step_correct,none,57,step_correct_vs_step_incorrect
+pe_v2_0000_incorrect_step2,pe_v2_0000,pe_v2_0000_step2,paired_step_v2,计算 18 + 28 + 11。,2,3,步骤2：再计算 46 + 11 = 55。,"题目：计算 18 + 28 + 11。
+步骤1：先计算 18 + 28 = 46。
+步骤2：再计算 46 + 11 = 55。",1,step_incorrect,final_addition_error,57,step_correct_vs_step_incorrect
+pe_v2_0000_correct_step3,pe_v2_0000,pe_v2_0000_step3,paired_step_v2,计算 18 + 28 + 11。,3,3,答案：57。,"题目：计算 18 + 28 + 11。
+步骤1：先计算 18 + 28 = 46。
+步骤2：再计算 46 + 11 = 57。
+答案：57。",0,step_correct,none,57,step_correct_vs_step_incorrect
+pe_v2_0000_incorrect_step3,pe_v2_0000,pe_v2_0000_step3,paired_step_v2,计算 18 + 28 + 11。,3,3,答案：52。,"题目：计算 18 + 28 + 11。
+步骤1：先计算 18 + 28 = 46。
+步骤2：再计算 46 + 11 = 57。
+答案：52。",1,step_incorrect,wrong_final_answer,57,step_correct_vs_step_incorrect
+pe_v2_0001_correct_step1,pe_v2_0001,pe_v2_0001_step1,paired_step_v2,计算 4 × 10 + 39。,1,3,步骤1：先计算 4 × 10 = 40。,"题目：计算 4 × 10 + 39。
+步骤1：先计算 4 × 10 = 40。",0,step_correct,none,79,step_correct_vs_step_incorrect
+pe_v2_0001_incorrect_step1,pe_v2_0001,pe_v2_0001_step1,paired_step_v2,计算 4 × 10 + 39。,1,3,步骤1：先计算 4 × 10 = 43。,"题目：计算 4 × 10 + 39。
+步骤1：先计算 4 × 10 = 43。",1,step_incorrect,multiplication_error,79,step_correct_vs_step_incorrect
+pe_v2_0001_correct_step2,pe_v2_0001,pe_v2_0001_step2,paired_step_v2,计算 4 × 10 + 39。,2,3,步骤2：再计算 40 + 39 = 79。,"题目：计算 4 × 10 + 39。
+步骤1：先计算 4 × 10 = 40。
+步骤2：再计算 40 + 39 = 79。",0,step_correct,none,79,step_correct_vs_step_incorrect
+pe_v2_0001_incorrect_step2,pe_v2_0001,pe_v2_0001_step2,paired_step_v2,计算 4 × 10 + 39。,2,3,步骤2：再计算 40 + 39 = 76。,"题目：计算 4 × 10 + 39。
+步骤1：先计算 4 × 10 = 40。
+步骤2：再计算 40 + 39 = 76。",1,step_incorrect,addition_after_multiplication_error,79,step_correct_vs_step_incorrect
+pe_v2_0001_correct_step3,pe_v2_0001,pe_v2_0001_step3,paired_step_v2,计算 4 × 10 + 39。,3,3,答案：79。,"题目：计算 4 × 10 + 39。
+步骤1：先计算 4 × 10 = 40。
+步骤2：再计算 40 + 39 = 79。
+答案：79。",0,step_correct,none,79,step_correct_vs_step_incorrect
+pe_v2_0001_incorrect_step3,pe_v2_0001,pe_v2_0001_step3,paired_step_v2,计算 4 × 10 + 39。,3,3,答案：75。,"题目：计算 4 × 10 + 39。
+步骤1：先计算 4 × 10 = 40。
+步骤2：再计算 40 + 39 = 79。
+答案：75。",1,step_incorrect,wrong_final_answer,79,step_correct_vs_step_incorrect
+pe_v2_0002_correct_step1,pe_v2_0002,pe_v2_0002_step1,paired_step_v2,计算 (6 + 9) × 4。,1,3,步骤1：先计算括号内 6 + 9 = 15。,"题目：计算 (6 + 9) × 4。
+步骤1：先计算括号内 6 + 9 = 15。",0,step_correct,none,60,step_correct_vs_step_incorrect
+pe_v2_0002_incorrect_step1,pe_v2_0002,pe_v2_0002_step1,paired_step_v2,计算 (6 + 9) × 4。,1,3,步骤1：先计算括号内 6 + 9 = 14。,"题目：计算 (6 + 9) × 4。
+步骤1：先计算括号内 6 + 9 = 14。",1,step_incorrect,parentheses_addition_error,60,step_correct_vs_step_incorrect
+pe_v2_0002_correct_step2,pe_v2_0002,pe_v2_0002_step2,paired_step_v2,计算 (6 + 9) × 4。,2,3,步骤2：再计算 15 × 4 = 60。,"题目：计算 (6 + 9) × 4。
+步骤1：先计算括号内 6 + 9 = 15。
+步骤2：再计算 15 × 4 = 60。",0,step_correct,none,60,step_correct_vs_step_incorrect
+pe_v2_0002_incorrect_step2,pe_v2_0002,pe_v2_0002_step2,paired_step_v2,计算 (6 + 9) × 4。,2,3,步骤2：再计算 15 × 4 = 65。,"题目：计算 (6 + 9) × 4。
+步骤1：先计算括号内 6 + 9 = 15。
+步骤2：再计算 15 × 4 = 65。",1,step_incorrect,multiplication_after_parentheses_error,60,step_correct_vs_step_incorrect
+pe_v2_0002_correct_step3,pe_v2_0002,pe_v2_0002_step3,paired_step_v2,计算 (6 + 9) × 4。,3,3,答案：60。,"题目：计算 (6 + 9) × 4。
+步骤1：先计算括号内 6 + 9 = 15。
+步骤2：再计算 15 × 4 = 60。
+答案：60。",0,step_correct,none,60,step_correct_vs_step_incorrect
+pe_v2_0002_incorrect_step3,pe_v2_0002,pe_v2_0002_step3,paired_step_v2,计算 (6 + 9) × 4。,3,3,答案：55。,"题目：计算 (6 + 9) × 4。
+步骤1：先计算括号内 6 + 9 = 15。
+步骤2：再计算 15 × 4 = 60。
+答案：55。",1,step_incorrect,wrong_final_answer,60,step_correct_vs_step_incorrect
+pe_v2_0003_correct_step1,pe_v2_0003,pe_v2_0003_step1,paired_step_v2,解方程 5x + 13 = 133。,1,3,步骤1：两边减去 13，得到 5x = 120。,"题目：解方程 5x + 13 = 133。
+步骤1：两边减去 13，得到 5x = 120。",0,step_correct,none,24,step_correct_vs_step_incorrect
+pe_v2_0003_incorrect_step1,pe_v2_0003,pe_v2_0003_step1,paired_step_v2,解方程 5x + 13 = 133。,1,3,步骤1：两边减去 13，得到 5x = 116。,"题目：解方程 5x + 13 = 133。
+步骤1：两边减去 13，得到 5x = 116。",1,step_incorrect,subtraction_error,24,step_correct_vs_step_incorrect
+pe_v2_0003_correct_step2,pe_v2_0003,pe_v2_0003_step2,paired_step_v2,解方程 5x + 13 = 133。,2,3,步骤2：两边除以 5，得到 x = 24。,"题目：解方程 5x + 13 = 133。
+步骤1：两边减去 13，得到 5x = 120。
+步骤2：两边除以 5，得到 x = 24。",0,step_correct,none,24,step_correct_vs_step_incorrect
+pe_v2_0003_incorrect_step2,pe_v2_0003,pe_v2_0003_step2,paired_step_v2,解方程 5x + 13 = 133。,2,3,步骤2：两边除以 5，得到 x = 26。,"题目：解方程 5x + 13 = 133。
+步骤1：两边减去 13，得到 5x = 120。
+步骤2：两边除以 5，得到 x = 26。",1,step_incorrect,division_error,24,step_correct_vs_step_incorrect
+pe_v2_0003_correct_step3,pe_v2_0003,pe_v2_0003_step3,paired_step_v2,解方程 5x + 13 = 133。,3,3,答案：x = 24。,"题目：解方程 5x + 13 = 133。
+步骤1：两边减去 13，得到 5x = 120。
+步骤2：两边除以 5，得到 x = 24。
+答案：x = 24。",0,step_correct,none,24,step_correct_vs_step_incorrect
+pe_v2_0003_incorrect_step3,pe_v2_0003,pe_v2_0003_step3,paired_step_v2,解方程 5x + 13 = 133。,3,3,答案：x = 21。,"题目：解方程 5x + 13 = 133。
+步骤1：两边减去 13，得到 5x = 120。
+步骤2：两边除以 5，得到 x = 24。
+答案：x = 21。",1,step_incorrect,wrong_final_answer,24,step_correct_vs_step_incorrect
+pe_v2_0004_correct_step1,pe_v2_0004,pe_v2_0004_step1,paired_step_v2,计算 60 + 15 + 6。,1,3,步骤1：先计算 60 + 15 = 75。,"题目：计算 60 + 15 + 6。
+步骤1：先计算 60 + 15 = 75。",0,step_correct,none,81,step_correct_vs_step_incorrect
+pe_v2_0004_incorrect_step1,pe_v2_0004,pe_v2_0004_step1,paired_step_v2,计算 60 + 15 + 6。,1,3,步骤1：先计算 60 + 15 = 74。,"题目：计算 60 + 15 + 6。
+步骤1：先计算 60 + 15 = 74。",1,step_incorrect,first_addition_error,81,step_correct_vs_step_incorrect
+pe_v2_0004_correct_step2,pe_v2_0004,pe_v2_0004_step2,paired_step_v2,计算 60 + 15 + 6。,2,3,步骤2：再计算 75 + 6 = 81。,"题目：计算 60 + 15 + 6。
+步骤1：先计算 60 + 15 = 75。
+步骤2：再计算 75 + 6 = 81。",0,step_correct,none,81,step_correct_vs_step_incorrect
+pe_v2_0004_incorrect_step2,pe_v2_0004,pe_v2_0004_step2,paired_step_v2,计算 60 + 15 + 6。,2,3,步骤2：再计算 75 + 6 = 85。,"题目：计算 60 + 15 + 6。
+步骤1：先计算 60 + 15 = 75。
+步骤2：再计算 75 + 6 = 85。",1,step_incorrect,final_addition_error,81,step_correct_vs_step_incorrect
+pe_v2_0004_correct_step3,pe_v2_0004,pe_v2_0004_step3,paired_step_v2,计算 60 + 15 + 6。,3,3,答案：81。,"题目：计算 60 + 15 + 6。
+步骤1：先计算 60 + 15 = 75。
+步骤2：再计算 75 + 6 = 81。
+答案：81。",0,step_correct,none,81,step_correct_vs_step_incorrect
+pe_v2_0004_incorrect_step3,pe_v2_0004,pe_v2_0004_step3,paired_step_v2,计算 60 + 15 + 6。,3,3,答案：84。,"题目：计算 60 + 15 + 6。
+步骤1：先计算 60 + 15 = 75。
+步骤2：再计算 75 + 6 = 81。
+答案：84。",1,step_incorrect,wrong_final_answer,81,step_correct_vs_step_incorrect
+pe_v2_0005_correct_step1,pe_v2_0005,pe_v2_0005_step1,paired_step_v2,计算 6 × 4 + 10。,1,3,步骤1：先计算 6 × 4 = 24。,"题目：计算 6 × 4 + 10。
+步骤1：先计算 6 × 4 = 24。",0,step_correct,none,34,step_correct_vs_step_incorrect
+pe_v2_0005_incorrect_step1,pe_v2_0005,pe_v2_0005_step1,paired_step_v2,计算 6 × 4 + 10。,1,3,步骤1：先计算 6 × 4 = 28。,"题目：计算 6 × 4 + 10。
+步骤1：先计算 6 × 4 = 28。",1,step_incorrect,multiplication_error,34,step_correct_vs_step_incorrect
+pe_v2_0005_correct_step2,pe_v2_0005,pe_v2_0005_step2,paired_step_v2,计算 6 × 4 + 10。,2,3,步骤2：再计算 24 + 10 = 34。,"题目：计算 6 × 4 + 10。
+步骤1：先计算 6 × 4 = 24。
+步骤2：再计算 24 + 10 = 34。",0,step_correct,none,34,step_correct_vs_step_incorrect
+pe_v2_0005_incorrect_step2,pe_v2_0005,pe_v2_0005_step2,paired_step_v2,计算 6 × 4 + 10。,2,3,步骤2：再计算 24 + 10 = 30。,"题目：计算 6 × 4 + 10。
+步骤1：先计算 6 × 4 = 24。
+步骤2：再计算 24 + 10 = 30。",1,step_incorrect,addition_after_multiplication_error,34,step_correct_vs_step_incorrect
+pe_v2_0005_correct_step3,pe_v2_0005,pe_v2_0005_step3,paired_step_v2,计算 6 × 4 + 10。,3,3,答案：34。,"题目：计算 6 × 4 + 10。
+步骤1：先计算 6 × 4 = 24。
+步骤2：再计算 24 + 10 = 34。
+答案：34。",0,step_correct,none,34,step_correct_vs_step_incorrect
+pe_v2_0005_incorrect_step3,pe_v2_0005,pe_v2_0005_step3,paired_step_v2,计算 6 × 4 + 10。,3,3,答案：29。,"题目：计算 6 × 4 + 10。
+步骤1：先计算 6 × 4 = 24。
+步骤2：再计算 24 + 10 = 34。
+答案：29。",1,step_incorrect,wrong_final_answer,34,step_correct_vs_step_incorrect
+pe_v2_0006_correct_step1,pe_v2_0006,pe_v2_0006_step1,paired_step_v2,计算 (30 + 4) × 6。,1,3,步骤1：先计算括号内 30 + 4 = 34。,"题目：计算 (30 + 4) × 6。
+步骤1：先计算括号内 30 + 4 = 34。",0,step_correct,none,204,step_correct_vs_step_incorrect
+pe_v2_0006_incorrect_step1,pe_v2_0006,pe_v2_0006_step1,paired_step_v2,计算 (30 + 4) × 6。,1,3,步骤1：先计算括号内 30 + 4 = 35。,"题目：计算 (30 + 4) × 6。
+步骤1：先计算括号内 30 + 4 = 35。",1,step_incorrect,parentheses_addition_error,204,step_correct_vs_step_incorrect
+pe_v2_0006_correct_step2,pe_v2_0006,pe_v2_0006_step2,paired_step_v2,计算 (30 + 4) × 6。,2,3,步骤2：再计算 34 × 6 = 204。,"题目：计算 (30 + 4) × 6。
+步骤1：先计算括号内 30 + 4 = 34。
+步骤2：再计算 34 × 6 = 204。",0,step_correct,none,204,step_correct_vs_step_incorrect
+pe_v2_0006_incorrect_step2,pe_v2_0006,pe_v2_0006_step2,paired_step_v2,计算 (30 + 4) × 6。,2,3,步骤2：再计算 34 × 6 = 209。,"题目：计算 (30 + 4) × 6。
+步骤1：先计算括号内 30 + 4 = 34。
+步骤2：再计算 34 × 6 = 209。",1,step_incorrect,multiplication_after_parentheses_error,204,step_correct_vs_step_incorrect
+pe_v2_0006_correct_step3,pe_v2_0006,pe_v2_0006_step3,paired_step_v2,计算 (30 + 4) × 6。,3,3,答案：204。,"题目：计算 (30 + 4) × 6。
+步骤1：先计算括号内 30 + 4 = 34。
+步骤2：再计算 34 × 6 = 204。
+答案：204。",0,step_correct,none,204,step_correct_vs_step_incorrect
+pe_v2_0006_incorrect_step3,pe_v2_0006,pe_v2_0006_step3,paired_step_v2,计算 (30 + 4) × 6。,3,3,答案：209。,"题目：计算 (30 + 4) × 6。
+步骤1：先计算括号内 30 + 4 = 34。
+步骤2：再计算 34 × 6 = 204。
+答案：209。",1,step_incorrect,wrong_final_answer,204,step_correct_vs_step_incorrect
+pe_v2_0007_correct_step1,pe_v2_0007,pe_v2_0007_step1,paired_step_v2,解方程 9x + 5 = 95。,1,3,步骤1：两边减去 5，得到 9x = 90。,"题目：解方程 9x + 5 = 95。
+步骤1：两边减去 5，得到 9x = 90。",0,step_correct,none,10,step_correct_vs_step_incorrect
+pe_v2_0007_incorrect_step1,pe_v2_0007,pe_v2_0007_step1,paired_step_v2,解方程 9x + 5 = 95。,1,3,步骤1：两边减去 5，得到 9x = 88。,"题目：解方程 9x + 5 = 95。
+步骤1：两边减去 5，得到 9x = 88。",1,step_incorrect,subtraction_error,10,step_correct_vs_step_incorrect
+pe_v2_0007_correct_step2,pe_v2_0007,pe_v2_0007_step2,paired_step_v2,解方程 9x + 5 = 95。,2,3,步骤2：两边除以 9，得到 x = 10。,"题目：解方程 9x + 5 = 95。
+步骤1：两边减去 5，得到 9x = 90。
+步骤2：两边除以 9，得到 x = 10。",0,step_correct,none,10,step_correct_vs_step_incorrect
+pe_v2_0007_incorrect_step2,pe_v2_0007,pe_v2_0007_step2,paired_step_v2,解方程 9x + 5 = 95。,2,3,步骤2：两边除以 9，得到 x = 11。,"题目：解方程 9x + 5 = 95。
+步骤1：两边减去 5，得到 9x = 90。
+步骤2：两边除以 9，得到 x = 11。",1,step_incorrect,division_error,10,step_correct_vs_step_incorrect
+pe_v2_0007_correct_step3,pe_v2_0007,pe_v2_0007_step3,paired_step_v2,解方程 9x + 5 = 95。,3,3,答案：x = 10。,"题目：解方程 9x + 5 = 95。
+步骤1：两边减去 5，得到 9x = 90。
+步骤2：两边除以 9，得到 x = 10。
+答案：x = 10。",0,step_correct,none,10,step_correct_vs_step_incorrect
+pe_v2_0007_incorrect_step3,pe_v2_0007,pe_v2_0007_step3,paired_step_v2,解方程 9x + 5 = 95。,3,3,答案：x = 12。,"题目：解方程 9x + 5 = 95。
+步骤1：两边减去 5，得到 9x = 90。
+步骤2：两边除以 9，得到 x = 10。
+答案：x = 12。",1,step_incorrect,wrong_final_answer,10,step_correct_vs_step_incorrect
+pe_v2_0008_correct_step1,pe_v2_0008,pe_v2_0008_step1,paired_step_v2,计算 73 + 24 + 44。,1,3,步骤1：先计算 73 + 24 = 97。,"题目：计算 73 + 24 + 44。
+步骤1：先计算 73 + 24 = 97。",0,step_correct,none,141,step_correct_vs_step_incorrect
+pe_v2_0008_incorrect_step1,pe_v2_0008,pe_v2_0008_step1,paired_step_v2,计算 73 + 24 + 44。,1,3,步骤1：先计算 73 + 24 = 100。,"题目：计算 73 + 24 + 44。
+步骤1：先计算 73 + 24 = 100。",1,step_incorrect,first_addition_error,141,step_correct_vs_step_incorrect
+pe_v2_0008_correct_step2,pe_v2_0008,pe_v2_0008_step2,paired_step_v2,计算 73 + 24 + 44。,2,3,步骤2：再计算 97 + 44 = 141。,"题目：计算 73 + 24 + 44。
+步骤1：先计算 73 + 24 = 97。
+步骤2：再计算 97 + 44 = 141。",0,step_correct,none,141,step_correct_vs_step_incorrect
+pe_v2_0008_incorrect_step2,pe_v2_0008,pe_v2_0008_step2,paired_step_v2,计算 73 + 24 + 44。,2,3,步骤2：再计算 97 + 44 = 144。,"题目：计算 73 + 24 + 44。
+步骤1：先计算 73 + 24 = 97。
+步骤2：再计算 97 + 44 = 144。",1,step_incorrect,final_addition_error,141,step_correct_vs_step_incorrect
+pe_v2_0008_correct_step3,pe_v2_0008,pe_v2_0008_step3,paired_step_v2,计算 73 + 24 + 44。,3,3,答案：141。,"题目：计算 73 + 24 + 44。
+步骤1：先计算 73 + 24 = 97。
+步骤2：再计算 97 + 44 = 141。
+答案：141。",0,step_correct,none,141,step_correct_vs_step_incorrect
+pe_v2_0008_incorrect_step3,pe_v2_0008,pe_v2_0008_step3,paired_step_v2,计算 73 + 24 + 44。,3,3,答案：145。,"题目：计算 73 + 24 + 44。
+步骤1：先计算 73 + 24 = 97。
+步骤2：再计算 97 + 44 = 141。
+答案：145。",1,step_incorrect,wrong_final_answer,141,step_correct_vs_step_incorrect
+pe_v2_0009_correct_step1,pe_v2_0009,pe_v2_0009_step1,paired_step_v2,计算 13 × 4 + 30。,1,3,步骤1：先计算 13 × 4 = 52。,"题目：计算 13 × 4 + 30。
+步骤1：先计算 13 × 4 = 52。",0,step_correct,none,82,step_correct_vs_step_incorrect
+pe_v2_0009_incorrect_step1,pe_v2_0009,pe_v2_0009_step1,paired_step_v2,计算 13 × 4 + 30。,1,3,步骤1：先计算 13 × 4 = 56。,"题目：计算 13 × 4 + 30。
+步骤1：先计算 13 × 4 = 56。",1,step_incorrect,multiplication_error,82,step_correct_vs_step_incorrect
+pe_v2_0009_correct_step2,pe_v2_0009,pe_v2_0009_step2,paired_step_v2,计算 13 × 4 + 30。,2,3,步骤2：再计算 52 + 30 = 82。,"题目：计算 13 × 4 + 30。
+步骤1：先计算 13 × 4 = 52。
+步骤2：再计算 52 + 30 = 82。",0,step_correct,none,82,step_correct_vs_step_incorrect
+pe_v2_0009_incorrect_step2,pe_v2_0009,pe_v2_0009_step2,paired_step_v2,计算 13 × 4 + 30。,2,3,步骤2：再计算 52 + 30 = 86。,"题目：计算 13 × 4 + 30。
+步骤1：先计算 13 × 4 = 52。
+步骤2：再计算 52 + 30 = 86。",1,step_incorrect,addition_after_multiplication_error,82,step_correct_vs_step_incorrect
+pe_v2_0009_correct_step3,pe_v2_0009,pe_v2_0009_step3,paired_step_v2,计算 13 × 4 + 30。,3,3,答案：82。,"题目：计算 13 × 4 + 30。
+步骤1：先计算 13 × 4 = 52。
+步骤2：再计算 52 + 30 = 82。
+答案：82。",0,step_correct,none,82,step_correct_vs_step_incorrect
+pe_v2_0009_incorrect_step3,pe_v2_0009,pe_v2_0009_step3,paired_step_v2,计算 13 × 4 + 30。,3,3,答案：86。,"题目：计算 13 × 4 + 30。
+步骤1：先计算 13 × 4 = 52。
+步骤2：再计算 52 + 30 = 82。
+答案：86。",1,step_incorrect,wrong_final_answer,82,step_correct_vs_step_incorrect
+pe_v2_0010_correct_step1,pe_v2_0010,pe_v2_0010_step1,paired_step_v2,计算 (26 + 21) × 9。,1,3,步骤1：先计算括号内 26 + 21 = 47。,"题目：计算 (26 + 21) × 9。
+步骤1：先计算括号内 26 + 21 = 47。",0,step_correct,none,423,step_correct_vs_step_incorrect
+pe_v2_0010_incorrect_step1,pe_v2_0010,pe_v2_0010_step1,paired_step_v2,计算 (26 + 21) × 9。,1,3,步骤1：先计算括号内 26 + 21 = 49。,"题目：计算 (26 + 21) × 9。
+步骤1：先计算括号内 26 + 21 = 49。",1,step_incorrect,parentheses_addition_error,423,step_correct_vs_step_incorrect
+pe_v2_0010_correct_step2,pe_v2_0010,pe_v2_0010_step2,paired_step_v2,计算 (26 + 21) × 9。,2,3,步骤2：再计算 47 × 9 = 423。,"题目：计算 (26 + 21) × 9。
+步骤1：先计算括号内 26 + 21 = 47。
+步骤2：再计算 47 × 9 = 423。",0,step_correct,none,423,step_correct_vs_step_incorrect
+pe_v2_0010_incorrect_step2,pe_v2_0010,pe_v2_0010_step2,paired_step_v2,计算 (26 + 21) × 9。,2,3,步骤2：再计算 47 × 9 = 429。,"题目：计算 (26 + 21) × 9。
+步骤1：先计算括号内 26 + 21 = 47。
+步骤2：再计算 47 × 9 = 429。",1,step_incorrect,multiplication_after_parentheses_error,423,step_correct_vs_step_incorrect
+pe_v2_0010_correct_step3,pe_v2_0010,pe_v2_0010_step3,paired_step_v2,计算 (26 + 21) × 9。,3,3,答案：423。,"题目：计算 (26 + 21) × 9。
+步骤1：先计算括号内 26 + 21 = 47。
+步骤2：再计算 47 × 9 = 423。
+答案：423。",0,step_correct,none,423,step_correct_vs_step_incorrect
+pe_v2_0010_incorrect_step3,pe_v2_0010,pe_v2_0010_step3,paired_step_v2,计算 (26 + 21) × 9。,3,3,答案：428。,"题目：计算 (26 + 21) × 9。
+步骤1：先计算括号内 26 + 21 = 47。
+步骤2：再计算 47 × 9 = 423。
+答案：428。",1,step_incorrect,wrong_final_answer,423,step_correct_vs_step_incorrect
+pe_v2_0011_correct_step1,pe_v2_0011,pe_v2_0011_step1,paired_step_v2,解方程 2x + 14 = 40。,1,3,步骤1：两边减去 14，得到 2x = 26。,"题目：解方程 2x + 14 = 40。
+步骤1：两边减去 14，得到 2x = 26。",0,step_correct,none,13,step_correct_vs_step_incorrect
+pe_v2_0011_incorrect_step1,pe_v2_0011,pe_v2_0011_step1,paired_step_v2,解方程 2x + 14 = 40。,1,3,步骤1：两边减去 14，得到 2x = 30。,"题目：解方程 2x + 14 = 40。
+步骤1：两边减去 14，得到 2x = 30。",1,step_incorrect,subtraction_error,13,step_correct_vs_step_incorrect
+pe_v2_0011_correct_step2,pe_v2_0011,pe_v2_0011_step2,paired_step_v2,解方程 2x + 14 = 40。,2,3,步骤2：两边除以 2，得到 x = 13。,"题目：解方程 2x + 14 = 40。
+步骤1：两边减去 14，得到 2x = 26。
+步骤2：两边除以 2，得到 x = 13。",0,step_correct,none,13,step_correct_vs_step_incorrect
+pe_v2_0011_incorrect_step2,pe_v2_0011,pe_v2_0011_step2,paired_step_v2,解方程 2x + 14 = 40。,2,3,步骤2：两边除以 2，得到 x = 11。,"题目：解方程 2x + 14 = 40。
+步骤1：两边减去 14，得到 2x = 26。
+步骤2：两边除以 2，得到 x = 11。",1,step_incorrect,division_error,13,step_correct_vs_step_incorrect
+pe_v2_0011_correct_step3,pe_v2_0011,pe_v2_0011_step3,paired_step_v2,解方程 2x + 14 = 40。,3,3,答案：x = 13。,"题目：解方程 2x + 14 = 40。
+步骤1：两边减去 14，得到 2x = 26。
+步骤2：两边除以 2，得到 x = 13。
+答案：x = 13。",0,step_correct,none,13,step_correct_vs_step_incorrect
+pe_v2_0011_incorrect_step3,pe_v2_0011,pe_v2_0011_step3,paired_step_v2,解方程 2x + 14 = 40。,3,3,答案：x = 14。,"题目：解方程 2x + 14 = 40。
+步骤1：两边减去 14，得到 2x = 26。
+步骤2：两边除以 2，得到 x = 13。
+答案：x = 14。",1,step_incorrect,wrong_final_answer,13,step_correct_vs_step_incorrect
+pe_v2_0012_correct_step1,pe_v2_0012,pe_v2_0012_step1,paired_step_v2,计算 45 + 21 + 27。,1,3,步骤1：先计算 45 + 21 = 66。,"题目：计算 45 + 21 + 27。
+步骤1：先计算 45 + 21 = 66。",0,step_correct,none,93,step_correct_vs_step_incorrect
+pe_v2_0012_incorrect_step1,pe_v2_0012,pe_v2_0012_step1,paired_step_v2,计算 45 + 21 + 27。,1,3,步骤1：先计算 45 + 21 = 65。,"题目：计算 45 + 21 + 27。
+步骤1：先计算 45 + 21 = 65。",1,step_incorrect,first_addition_error,93,step_correct_vs_step_incorrect
+pe_v2_0012_correct_step2,pe_v2_0012,pe_v2_0012_step2,paired_step_v2,计算 45 + 21 + 27。,2,3,步骤2：再计算 66 + 27 = 93。,"题目：计算 45 + 21 + 27。
+步骤1：先计算 45 + 21 = 66。
+步骤2：再计算 66 + 27 = 93。",0,step_correct,none,93,step_correct_vs_step_incorrect
+pe_v2_0012_incorrect_step2,pe_v2_0012,pe_v2_0012_step2,paired_step_v2,计算 45 + 21 + 27。,2,3,步骤2：再计算 66 + 27 = 96。,"题目：计算 45 + 21 + 27。
+步骤1：先计算 45 + 21 = 66。
+步骤2：再计算 66 + 27 = 96。",1,step_incorrect,final_addition_error,93,step_correct_vs_step_incorrect
+pe_v2_0012_correct_step3,pe_v2_0012,pe_v2_0012_step3,paired_step_v2,计算 45 + 21 + 27。,3,3,答案：93。,"题目：计算 45 + 21 + 27。
+步骤1：先计算 45 + 21 = 66。
+步骤2：再计算 66 + 27 = 93。
+答案：93。",0,step_correct,none,93,step_correct_vs_step_incorrect
+pe_v2_0012_incorrect_step3,pe_v2_0012,pe_v2_0012_step3,paired_step_v2,计算 45 + 21 + 27。,3,3,答案：96。,"题目：计算 45 + 21 + 27。
+步骤1：先计算 45 + 21 = 66。
+步骤2：再计算 66 + 27 = 93。
+答案：96。",1,step_incorrect,wrong_final_answer,93,step_correct_vs_step_incorrect
+pe_v2_0013_correct_step1,pe_v2_0013,pe_v2_0013_step1,paired_step_v2,计算 5 × 15 + 34。,1,3,步骤1：先计算 5 × 15 = 75。,"题目：计算 5 × 15 + 34。
+步骤1：先计算 5 × 15 = 75。",0,step_correct,none,109,step_correct_vs_step_incorrect
+pe_v2_0013_incorrect_step1,pe_v2_0013,pe_v2_0013_step1,paired_step_v2,计算 5 × 15 + 34。,1,3,步骤1：先计算 5 × 15 = 77。,"题目：计算 5 × 15 + 34。
+步骤1：先计算 5 × 15 = 77。",1,step_incorrect,multiplication_error,109,step_correct_vs_step_incorrect

@@ -1,0 +1,14 @@
+﻿section,name,count
+original_behavior_label,hallucination,279
+original_behavior_label,irrelevant,1
+original_behavior_label,refusal,20
+audit_bucket,explanatory_specific_answer,13
+audit_bucket,refusal_or_not_applicable_style,273
+audit_bucket,short_specific_answer,13
+audit_bucket,specific_answer,1
+codex_review_decision,flag_boundary_case,252
+codex_review_decision,keep_original,48
+codex_review_label,hallucination,27
+codex_review_label,irrelevant,1
+codex_review_label,refusal,20
+codex_review_label,refusal_or_not_applicable_boundary,252

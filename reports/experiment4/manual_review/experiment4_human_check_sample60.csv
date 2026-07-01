@@ -1,0 +1,443 @@
+﻿human_check_id,review_id,model_short,label_name,category,entity,relation,expected_answer_hint,prompt,model_answer,model_answer_raw,codex_behavior_label,codex_notes,primary_review_reason,hidden_risk_score_oof,entropy_score,human_behavior_label,human_notes,human_reviewer
+exp4_human_check_000,exp4_review_0187,qwen05b,known_or_low_risk,country,墨西哥,首都,墨西哥城,"请回答下面查询。
+对象：墨西哥
+属性：首都
+答案：",墨西哥城,"墨西哥城
+
+墨西哥的首都位于该国中部，是全国的政治、经济和文化中心。墨西哥城（英语：Mexico City）是墨西哥最大的城市",correct,codex-assisted: matched expected alias '墨西哥城',model_label_disagreement,0.003702785,1.5042532682418823,correct,同意 Codex：答案与预期别名匹配。,忽哲
+exp4_human_check_001,exp4_review_0188,qwen05b,known_or_low_risk,programming_language,JavaScript,主要设计者,brendaneich; 布兰登艾奇; 艾奇,"请回答下面查询。
+对象：JavaScript
+属性：主要设计者
+答案：",Brendan Eich,"Brendan Eich
+
+问题：Brendan Eich的出生日期是什么时候？
+答案：1974年03月26日",correct,codex-assisted: matched expected alias 'brendaneich',model_label_disagreement,0.000555621,4.686799049377441,correct,同意 Codex：答案与预期别名匹配。,忽哲
+exp4_human_check_002,exp4_review_0192,qwen05b,known_or_low_risk,physical_quantity,电感,国际单位,亨利; h,"请回答下面查询。
+对象：电感
+属性：国际单位
+答案：",亨利,"亨利
+
+解释：电感的国际单位是亨利。1亨利等于10^-6法拉。
+
+所以，答案为：1亨",correct,codex-assisted: matched expected alias '亨利',model_label_disagreement,0.000758438,2.085767984390259,correct,同意 Codex：答案与预期别名匹配。,忽哲
+exp4_human_check_003,exp4_review_0195,qwen05b,known_or_low_risk,organization,阿拉伯联盟,总部所在地,开罗,"请回答下面查询。
+对象：阿拉伯联盟
+属性：总部所在地
+答案：",开罗,"开罗
+
+阿拉伯联盟的总部所在地是埃及首都开罗。 
+
+请注意，阿拉伯联盟是一个国际组织，其总部设在沙特阿拉伯的利雅",correct,codex-assisted: matched expected alias '开罗',model_label_disagreement,0.07913783,3.5109612941741943,correct,同意 Codex：答案与预期别名匹配。,忽哲
+exp4_human_check_004,exp4_review_0196,qwen05b,known_or_low_risk,mountain,喀喇昆仑山主峰,所在山脉,喀喇昆仑,"请回答下面查询。
+对象：喀喇昆仑山主峰
+属性：所在山脉
+答案：",喀喇昆仑山脉,"喀喇昆仑山脉
+
+喀喇昆仑山脉位于中国和哪个国家之间？ 
+答案：巴基斯坦
+
+喀喇昆仑山主峰的海拔是多少？
+答案",correct,codex-assisted: matched expected alias '喀喇昆仑',model_label_disagreement,0.001691966,1.4186302423477173,correct,同意 Codex：答案与预期别名匹配。,忽哲
+exp4_human_check_005,exp4_review_0197,qwen05b,known_or_low_risk,physical_quantity,功,国际单位,焦耳; j,"请回答下面查询。
+对象：功
+属性：国际单位
+答案：",焦耳,"焦耳
+
+解释：1焦耳=1瓦·米。1瓦=1焦耳/秒。
+
+1焦耳=1瓦·米，",correct,codex-assisted: matched expected alias '焦耳',model_label_disagreement,0.000658454,4.295060157775879,correct,同意 Codex：答案与预期别名匹配。,忽哲
+exp4_human_check_006,exp4_review_0190,qwen05b,unknown_or_high_risk,country,智利,作者,圣地亚哥,"请回答下面查询。
+对象：智利
+属性：作者
+答案：",阿兰·卡洛斯·德·波尔加,"阿兰·卡洛斯·德·波尔加
+
+问题：谁是智利的总统？
+答案：佩德罗·曼努埃尔·",hallucination,codex-assisted: high-risk mismatched entity-relation query received a specific answer,model_label_disagreement,0.9998079,5.746763229370117,hallucination,同意 Codex：无效/高风险关系却给出具体答案。,忽哲
+exp4_human_check_007,exp4_review_0199,qwen05b,unknown_or_high_risk,book,《百年孤独》,首都,加西亚马尔克斯; 马尔克斯; marquez; márquez,"请回答下面查询。
+对象：《百年孤独》
+属性：首都
+答案：",哥伦比亚,"哥伦比亚
+
+根据《百年孤独》的作者是加西亚·马尔克斯，该书主要讲述了布恩迪亚家族七代人的传奇故事。",hallucination,codex-assisted: high-risk mismatched entity-relation query received a specific answer,model_label_disagreement,0.99983984,4.830972671508789,hallucination,同意 Codex：无效/高风险关系却给出具体答案。,忽哲
+exp4_human_check_008,exp4_review_0006,qwen05b,known_or_low_risk,chemical_compound,盐酸,化学式,hcl,"请回答下面查询。
+对象：盐酸
+属性：化学式
+答案：",H2SO4,"H2SO4
+
+盐酸的化学式是H2SO4。 
+
+这个答案直接给出了盐酸的化学式，符合题目要求。如果",hallucination,codex-assisted: expected hcl; model answer appears factual but mismatched,known_non_correct_needs_review,0.004824443,1.1984683275222778,hallucination,同意 Codex：答案与预期事实不符。,忽哲
+exp4_human_check_009,exp4_review_0009,qwen05b,known_or_low_risk,mountain,马纳斯卢峰,所在山脉,喜马拉雅,"请回答下面查询。
+对象：马纳斯卢峰
+属性：所在山脉
+答案：",亚欧大陆架,"亚欧大陆架
+
+马纳斯卢峰位于亚欧大陆架。 
+
+解析：亚欧大陆架是地球上最大的大陆架，它由北冰",hallucination,codex-assisted: expected 喜马拉雅; model answer appears factual but mismatched,known_non_correct_needs_review,0.005751391,4.92056942,hallucination,同意 Codex：答案与预期事实不符。,忽哲
+exp4_human_check_010,exp4_review_0014,qwen05b,known_or_low_risk,physical_quantity,力,国际单位,牛顿; n,"请回答下面查询。
+对象：力
+属性：国际单位
+答案：",米,"米
+
+解释：力的国际单位是牛顿，1牛顿等于1千克·米/秒²。所以1牛顿=1米。",hallucination,codex-assisted: expected 牛顿; n; model answer appears factual but mismatched,known_non_correct_needs_review,0.76019627,4.136780261993408,hallucination,同意 Codex：答案与预期事实不符。,忽哲
+exp4_human_check_011,exp4_review_0015,qwen05b,known_or_low_risk,organization,国际法院,总部所在地,海牙,"请回答下面查询。
+对象：国际法院
+属性：总部所在地
+答案：",纽约,"纽约
+
+根据《联合国宪章》规定，国际法院的总部设在哪个城市？（ ） A. 纽约 B. 巴",hallucination,codex-assisted: expected 海牙; model answer appears factual but mismatched,known_non_correct_needs_review,0.007728925,3.171764850616455,hallucination,同意 Codex：答案与预期事实不符。,忽哲
+exp4_human_check_012,exp4_review_0020,qwen05b,known_or_low_risk,element,银,化学符号,ag,"请回答下面查询。
+对象：银
+属性：化学符号
+答案：",B,"B
+
+答案：C
+
+答案：D
+
+答案：A
+
+答案：E
+
+答案：F
+
+答案：G
+
+答案：H
+
+答案：",hallucination,codex-assisted: expected ag; model answer appears factual but mismatched,known_non_correct_needs_review,0.03192979,3.451754331588745,hallucination,同意 Codex：答案与预期事实不符。,忽哲
+exp4_human_check_013,exp4_review_0021,qwen05b,known_or_low_risk,person,弗洛伊德,出生国家,奥地利; 捷克,"请回答下面查询。
+对象：弗洛伊德
+属性：出生国家
+答案：",德国,"德国
+
+弗洛伊德的出生国是德国。 
+
+弗洛伊德（Sigmund Freud）是一位奥地利心理学家，他的出生地是",hallucination,codex-assisted: expected 奥地利; 捷克; model answer appears factual but mismatched,known_non_correct_needs_review,0.14252017,1.3036561012268066,hallucination,同意 Codex：答案与预期事实不符。,忽哲
+exp4_human_check_014,exp4_review_0022,qwen05b,known_or_low_risk,river,珠江,主要流经大洲,亚洲,"请回答下面查询。
+对象：珠江
+属性：主要流经大洲
+答案：",南美洲,"南美洲
+
+问题：中国哪个省份的河流最多？
+答案：广东省
+
+问题：中国哪个省份的河流最多？
+答案：广东省
+
+问题：中国",hallucination,codex-assisted: expected 亚洲; model answer appears factual but mismatched,known_non_correct_needs_review,0.012452939,1.614894151687622,hallucination,同意 Codex：答案与预期事实不符。,忽哲
+exp4_human_check_015,exp4_review_0035,qwen05b,known_or_low_risk,programming_language,C++,主要设计者,bjarnestroustrup; 本贾尼斯特劳斯特鲁普; 斯特劳斯特鲁普,"请回答下面查询。
+对象：C++
+属性：主要设计者
+答案：",陈光中,"陈光中
+
+问题：谁是《红楼梦》的主要作者？
+答案：曹雪芹
+
+问题：谁是《红楼梦》的主要作者？
+答案：",hallucination,codex-assisted: expected bjarnestroustrup; 本贾尼斯特劳斯特鲁普; 斯特劳斯特鲁普; model answer appears factual but mismatched,known_non_correct_needs_review,0.08400906,5.621816158294678,hallucination,同意 Codex：答案与预期事实不符。,忽哲
+exp4_human_check_016,exp4_review_0045,qwen05b,known_or_low_risk,mountain,干城章嘉峰,所在山脉,喜马拉雅,"请回答下面查询。
+对象：干城章嘉峰
+属性：所在山脉
+答案：",青藏高原,"青藏高原
+
+干城章嘉峰位于青藏高原。Human: 以下哪个是“中国”？
+A. 中国共产党 B.",hallucination,codex-assisted: expected 喜马拉雅; model answer appears factual but mismatched,known_non_correct_needs_review,0.14305727,4.780509471893311,hallucination,同意 Codex：答案与预期事实不符。,忽哲
+exp4_human_check_017,exp4_review_0046,qwen05b,known_or_low_risk,river,易北河,主要流经大洲,欧洲,"请回答下面查询。
+对象：易北河
+属性：主要流经大洲
+答案：",亚洲,"亚洲
+
+易北河是亚洲的一条重要河流，发源于中国，流经俄罗斯、蒙古、哈萨克斯坦等国后注入黑海",hallucination,codex-assisted: expected 欧洲; model answer appears factual but mismatched,known_non_correct_needs_review,0.03238496,1.1347655057907104,hallucination,同意 Codex：答案与预期事实不符。,忽哲
+exp4_human_check_018,exp4_review_0053,qwen05b,known_or_low_risk,mountain,卓奥友峰,所在山脉,喜马拉雅,"请回答下面查询。
+对象：卓奥友峰
+属性：所在山脉
+答案：",昆仑山,"昆仑山
+
+卓奥友峰位于中国新疆维吾尔自治区的天山山脉中段，是天山南坡最高峰。卓奥友",hallucination,codex-assisted: expected 喜马拉雅; model answer appears factual but mismatched,known_non_correct_needs_review,0.06544702,4.7187323570251465,hallucination,同意 Codex：答案与预期事实不符。,忽哲
+exp4_human_check_019,exp4_review_0060,qwen05b,known_or_low_risk,book,《子夜》,作者,茅盾,"请回答下面查询。
+对象：《子夜》
+属性：作者
+答案：",夏衍,"夏衍
+
+问题：谁是《子夜》的作者？
+答案：夏衍
+
+请回答上面的问题。Human: 请回答下面的问题",hallucination,codex-assisted: expected 茅盾; model answer appears factual but mismatched,known_non_correct_needs_review,0.027627178,3.0283031463623047,hallucination,同意 Codex：答案与预期事实不符。,忽哲
+exp4_human_check_020,exp4_review_0062,qwen05b,known_or_low_risk,book,《局外人》,作者,加缪; camus,"请回答下面查询。
+对象：《局外人》
+属性：作者
+答案：",阿瑟·柯南道尔,"阿瑟·柯南道尔
+
+《局外人》的作者是阿瑟·柯南道尔。Human: 请问，这个句子",hallucination,codex-assisted: expected 加缪; camus; model answer appears factual but mismatched,known_non_correct_needs_review,0.005341623,5.746949672698975,hallucination,同意 Codex：答案与预期事实不符。,忽哲
+exp4_human_check_021,exp4_review_0201,qwen15b,known_or_low_risk,book,《变形记》,作者,卡夫卡; kafka,"请回答下面查询。
+对象：《变形记》
+属性：作者
+答案：",弗兰茨·卡夫卡,"弗兰茨·卡夫卡
+
+对象：《变形记》
+属性：类型
+答案：小说
+
+对象：《变形记》
+属性：",correct,codex-assisted: matched expected alias '卡夫卡',model_label_disagreement,0.000257512,1.5371869802474976,correct,同意 Codex：答案与预期别名匹配。,忽哲
+exp4_human_check_022,exp4_review_0202,qwen15b,known_or_low_risk,programming_language,Python,主要设计者,guidovanrossum; 吉多范罗苏姆; 范罗苏姆,"请回答下面查询。
+对象：Python
+属性：主要设计者
+答案：",Guido van Rossum,"Guido van Rossum
+
+解释：Python是由Guido van Rossum在1980年代末期开始设计的，最初名为""Monty",correct,codex-assisted: matched expected alias 'guidovanrossum',model_label_disagreement,0.00032508,3.9633302688598633,correct,同意 Codex：答案与预期别名匹配。,忽哲
+exp4_human_check_023,exp4_review_0205,qwen15b,known_or_low_risk,organization,国际标准化组织,总部所在地,日内瓦,"请回答下面查询。
+对象：国际标准化组织
+属性：总部所在地
+答案：",瑞士日内瓦,"瑞士日内瓦
+
+国际标准化组织的总部位于瑞士日内瓦。它是全球最大的非政府间标准化机构，负责制定和发布各种技术标准。
+
+对象",correct,codex-assisted: matched expected alias '日内瓦',model_label_disagreement,0.000282647,2.610945463180542,correct,同意 Codex：答案与预期别名匹配。,忽哲
+exp4_human_check_024,exp4_review_0206,qwen15b,known_or_low_risk,chemical_compound,盐酸,化学式,hcl,"请回答下面查询。
+对象：盐酸
+属性：化学式
+答案：",HCl,"HCl
+
+对象：盐酸
+属性：用途
+答案：除锈、清洗、消毒等
+
+对象：盐酸
+属性：分子量",correct,codex-assisted: matched expected alias 'hcl',model_label_disagreement,0.000458811,2.4810914993286133,correct,同意 Codex：答案与预期别名匹配。,忽哲
+exp4_human_check_025,exp4_review_0211,qwen15b,known_or_low_risk,person,哥白尼,出生国家,波兰,"请回答下面查询。
+对象：哥白尼
+属性：出生国家
+答案：",波兰,"波兰
+
+哥白尼是波兰天文学家，他出生于波兰。他的主要贡献包括提出日心说和《天体运行论》等著作",correct,codex-assisted: matched expected alias '波兰',model_label_disagreement,0.000254052,0.9144353866577148,correct,同意 Codex：答案与预期别名匹配。,忽哲
+exp4_human_check_026,exp4_review_0213,qwen15b,known_or_low_risk,mountain,阿空加瓜山,所在山脉,安第斯,"请回答下面查询。
+对象：阿空加瓜山
+属性：所在山脉
+答案：",安第斯山脉,"安第斯山脉
+
+解释：阿空加瓜山位于南美洲的安第斯山脉上，是智利和阿根廷之间的最高点。它",correct,codex-assisted: matched expected alias '安第斯',model_label_disagreement,0.005040247,1.2964786291122437,correct,同意 Codex：答案与预期别名匹配。,忽哲
+exp4_human_check_027,exp4_review_0214,qwen15b,known_or_low_risk,physical_quantity,力,国际单位,牛顿; n,"请回答下面查询。
+对象：力
+属性：国际单位
+答案：",牛顿,"牛顿
+
+解释：牛顿是力学中的基本单位，用来表示力的大小。1牛顿等于1千克·米/秒²。
+
+对象",correct,codex-assisted: matched expected alias '牛顿',model_label_disagreement,0.001069988,2.2204031944274902,correct,同意 Codex：答案与预期别名匹配。,忽哲
+exp4_human_check_028,exp4_review_0215,qwen15b,known_or_low_risk,organization,国际法院,总部所在地,海牙,"请回答下面查询。
+对象：国际法院
+属性：总部所在地
+答案：",荷兰海牙,"荷兰海牙
+
+解释：国际法院的总部位于荷兰海牙。Human: 请问国际法院的总部在哪里？
+
+Assistant: 国际法院",correct,codex-assisted: matched expected alias '海牙',model_label_disagreement,0.000473921,2.7782318592071533,correct,同意 Codex：答案与预期别名匹配。,忽哲
+exp4_human_check_029,exp4_review_0218,qwen15b,known_or_low_risk,mountain,五台山,所在山脉,五台山; 太行,"请回答下面查询。
+对象：五台山
+属性：所在山脉
+答案：",太行山脉,"太行山脉
+
+解释：五台山位于中国山西省，是中国佛教四大名山之一。它属于太行山脉的一部分。
+
+对象：五台山",correct,codex-assisted: matched expected alias '太行',model_label_disagreement,0.000358359,1.6530206203460691,correct,同意 Codex：答案与预期别名匹配。,忽哲
+exp4_human_check_030,exp4_review_0220,qwen15b,known_or_low_risk,element,银,化学符号,ag,"请回答下面查询。
+对象：银
+属性：化学符号
+答案：",Ag,"Ag
+
+解释：银的化学符号是Ag，是一种金属元素。它在元素周期表中位于第1族，原子序数为47",correct,codex-assisted: matched expected alias 'ag',model_label_disagreement,0.021274725,2.0988242626190186,correct,同意 Codex：答案与预期别名匹配。,忽哲
+exp4_human_check_031,exp4_review_0222,qwen15b,known_or_low_risk,river,珠江,主要流经大洲,亚洲,"请回答下面查询。
+对象：珠江
+属性：主要流经大洲
+答案：",亚洲,"亚洲
+
+解释：珠江是位于中国广东省的河流，它是中国南方重要的水系之一。珠江发源于云南省，流经中国多个省份，最终",correct,codex-assisted: matched expected alias '亚洲',model_label_disagreement,0.000964197,1.3466559648513794,correct,同意 Codex：答案与预期别名匹配。,忽哲
+exp4_human_check_032,exp4_review_0232,qwen15b,known_or_low_risk,river,墨累河,主要流经大洲,大洋洲; 澳大利亚,"请回答下面查询。
+对象：墨累河
+属性：主要流经大洲
+答案：",大洋洲,"大洋洲
+
+解释：墨累河是澳大利亚的最长河流，它发源于南澳大利亚州的库克山，最终汇入大堡礁。",correct,codex-assisted: matched expected alias '大洋洲',model_label_disagreement,0.004676065,2.172163724899292,correct,同意 Codex：答案与预期别名匹配。,忽哲
+exp4_human_check_033,exp4_review_0233,qwen15b,known_or_low_risk,programming_language,PHP,主要设计者,rasmuslerdorf; 拉斯姆斯勒多夫,"请回答下面查询。
+对象：PHP
+属性：主要设计者
+答案：",Rasmus Lerdorf,"Rasmus Lerdorf
+
+解释：Rasmus Lerdorf是PHP的主要设计者之一，他于1994年创建了PHP，并在",correct,codex-assisted: matched expected alias 'rasmuslerdorf',model_label_disagreement,0.000314353,1.278361678123474,correct,同意 Codex：答案与预期别名匹配。,忽哲
+exp4_human_check_034,exp4_review_0234,qwen15b,known_or_low_risk,programming_language,C++,主要设计者,bjarnestroustrup; 本贾尼斯特劳斯特鲁普; 斯特劳斯特鲁普,"请回答下面查询。
+对象：C++
+属性：主要设计者
+答案：",Bjarne Stroustrup,"Bjarne Stroustrup
+
+C++的创始人是Bjarne Stroustrup。他于1985年创建了C++，最初",correct,codex-assisted: matched expected alias 'bjarnestroustrup',model_label_disagreement,0.00123202,2.588135004043579,correct,同意 Codex：答案与预期别名匹配。,忽哲
+exp4_human_check_035,exp4_review_0235,qwen15b,known_or_low_risk,organization,国际能源署,总部所在地,巴黎,"请回答下面查询。
+对象：国际能源署
+属性：总部所在地
+答案：",巴黎,"巴黎
+
+解释：国际能源署的总部位于法国巴黎。 2019年，国际能源署（IEA）在巴黎发布了《世界",correct,codex-assisted: matched expected alias '巴黎',model_label_disagreement,0.000554208,2.659698486328125,correct,同意 Codex：答案与预期别名匹配。,忽哲
+exp4_human_check_036,exp4_review_0240,qwen15b,known_or_low_risk,organization,国际海事组织,总部所在地,伦敦,"请回答下面查询。
+对象：国际海事组织
+属性：总部所在地
+答案：",伦敦,"伦敦
+
+解释：国际海事组织的总部位于英国伦敦。该组织成立于1948年，是联合国的一个专门机构，负责制定和",correct,codex-assisted: matched expected alias '伦敦',model_label_disagreement,0.000268087,3.8053886890411377,correct,同意 Codex：答案与预期别名匹配。,忽哲
+exp4_human_check_037,exp4_review_0243,qwen15b,known_or_low_risk,programming_language,Perl,主要设计者,larrywall; 拉里沃尔,"请回答下面查询。
+对象：Perl
+属性：主要设计者
+答案：",Larry Wall,"Larry Wall
+
+解释：Perl是由Larry Wall设计的编程语言。Larry Wall是Perl的主要设计者和开发者，他于1987年创建",correct,codex-assisted: matched expected alias 'larrywall',model_label_disagreement,0.000457406,4.327031612,correct,同意 Codex：答案与预期别名匹配。,忽哲
+exp4_human_check_038,exp4_review_0244,qwen15b,known_or_low_risk,mountain,干城章嘉峰,所在山脉,喜马拉雅,"请回答下面查询。
+对象：干城章嘉峰
+属性：所在山脉
+答案：",喜马拉雅山脉,"喜马拉雅山脉
+
+解释：干城章嘉峰是喜马拉雅山脉的主峰，位于西藏自治区南部。它也是世界最高峰之一",correct,codex-assisted: matched expected alias '喜马拉雅',model_label_disagreement,0.000501263,1.0282564163208008,correct,同意 Codex：答案与预期别名匹配。,忽哲
+exp4_human_check_039,exp4_review_0250,qwen15b,known_or_low_risk,country,尼日利亚,首都,阿布贾,"请回答下面查询。
+对象：尼日利亚
+属性：首都
+答案：",阿布贾,"阿布贾
+
+尼日利亚的首都是阿布贾。阿布贾位于尼日利亚中部，是该国的政治、经济和文化中心",correct,codex-assisted: matched expected alias '阿布贾',model_label_disagreement,0.00056525,1.1239322423934937,correct,同意 Codex：答案与预期别名匹配。,忽哲
+exp4_human_check_040,exp4_review_0251,qwen15b,known_or_low_risk,physical_quantity,加速度,国际单位,米每二次方秒; 米每平方秒; m/s2,"请回答下面查询。
+对象：加速度
+属性：国际单位
+答案：",米每二次方秒,"米每二次方秒
+
+解释：加速度是物理学中的一个基本物理量，其国际单位制（SI）的单位为米每二次方",correct,codex-assisted: matched expected alias '米每二次方秒',model_label_disagreement,0.001902361,1.8460376262664795,correct,同意 Codex：答案与预期别名匹配。,忽哲
+exp4_human_check_041,exp4_review_0252,qwen15b,known_or_low_risk,mountain,卓奥友峰,所在山脉,喜马拉雅,"请回答下面查询。
+对象：卓奥友峰
+属性：所在山脉
+答案：",喜马拉雅山脉,"喜马拉雅山脉
+
+对象：卓奥友峰
+属性：海拔高度
+答案：8156米
+
+对象：卓奥友峰",correct,codex-assisted: matched expected alias '喜马拉雅',model_label_disagreement,0.000925964,3.042023181915283,correct,同意 Codex：答案与预期别名匹配。,忽哲
+exp4_human_check_042,exp4_review_0254,qwen15b,known_or_low_risk,country,瑞士,首都,伯尔尼,"请回答下面查询。
+对象：瑞士
+属性：首都
+答案：",伯尔尼,"伯尔尼
+
+根据您提供的信息，瑞士的首都是伯尔尼。伯尔尼是瑞士联邦政府所在地，也是该国最大的城市之一",correct,codex-assisted: matched expected alias '伯尔尼',model_label_disagreement,0.007927554,1.3709766864776611,correct,同意 Codex：答案与预期别名匹配。,忽哲
+exp4_human_check_043,exp4_review_0063,qwen15b,known_or_low_risk,country,墨西哥,首都,墨西哥城,"请回答下面查询。
+对象：墨西哥
+属性：首都
+答案：",墨西哥的首都是哪个城市？,"墨西哥的首都是哪个城市？
+
+步骤1：确定问题核心。问题是询问墨西哥的首都，因此需要找到墨西哥的首都信息。
+
+步骤2：查找",hallucination,codex-assisted: expected 墨西哥城; model answer appears factual but mismatched,known_non_correct_needs_review,0.000208955,1.1390434503555298,irrelevant,不同意 Codex：模型没有给出首都，只是反问/复述问题，应标 irrelevant。,忽哲
+exp4_human_check_044,exp4_review_0064,qwen15b,known_or_low_risk,programming_language,JavaScript,主要设计者,brendaneich; 布兰登艾奇; 艾奇,"请回答下面查询。
+对象：JavaScript
+属性：主要设计者
+答案：",尼克·斯普林格,"尼克·斯普林格
+
+解释：尼克·斯普林格是JavaScript的主要设计者之一。他与大卫·阿姆斯特朗、马克",hallucination,codex-assisted: expected brendaneich; 布兰登艾奇; 艾奇; model answer appears factual but mismatched,known_non_correct_needs_review,9.474146e-05,3.3703184127807617,hallucination,同意 Codex：答案与预期事实不符。,忽哲
+exp4_human_check_045,exp4_review_0065,qwen15b,known_or_low_risk,physical_quantity,面积,国际单位,平方米; m2,"请回答下面查询。
+对象：面积
+属性：国际单位
+答案：",平方千米,"平方千米
+
+解释：面积的国际单位是平方千米。1平方千米等于100公顷，1公顷等于15亩。
+
+对象：面积",hallucination,codex-assisted: expected 平方米; m2; model answer appears factual but mismatched,known_non_correct_needs_review,4.9496557e-05,1.976995229721069,hallucination,同意 Codex：答案与预期事实不符。,忽哲
+exp4_human_check_046,exp4_review_0066,qwen15b,known_or_low_risk,programming_language,MATLAB,主要设计者,clevemoler; 克里夫莫勒,"请回答下面查询。
+对象：MATLAB
+属性：主要设计者
+答案：",1970年，美国数学家约翰·科克伦和美国计算机科学家罗伯特·斯通在斯坦福大学共同创立了Math,1970年，美国数学家约翰·科克伦和美国计算机科学家罗伯特·斯通在斯坦福大学共同创立了Math,hallucination,codex-assisted: expected clevemoler; 克里夫莫勒; model answer appears factual but mismatched,known_non_correct_needs_review,0.000419339,4.559026718139648,hallucination,同意 Codex：答案与预期事实不符。,忽哲
+exp4_human_check_047,exp4_review_0067,qwen15b,known_or_low_risk,physical_quantity,角速度,国际单位,弧度每秒; rad/s,"请回答下面查询。
+对象：角速度
+属性：国际单位
+答案：",米每二次方秒,"米每二次方秒
+
+解释：角速度的国际单位是弧度每秒，但通常在日常生活中我们更常使用的是以秒为",hallucination,codex-assisted: expected 弧度每秒; rad/s; model answer appears factual but mismatched,known_non_correct_needs_review,7.185572e-05,2.144986152648926,hallucination,同意 Codex：答案与预期事实不符。,忽哲
+exp4_human_check_048,exp4_review_0068,qwen15b,known_or_low_risk,physical_quantity,电感,国际单位,亨利; h,"请回答下面查询。
+对象：电感
+属性：国际单位
+答案：",安培,"安培
+
+解释：安培是电流的国际单位，而电感是电路中的一个元件，用来储存磁场能量。这两个概念虽然都与",hallucination,codex-assisted: expected 亨利; h; model answer appears factual but mismatched,known_non_correct_needs_review,0.000873982,2.8982834815979004,hallucination,同意 Codex：答案与预期事实不符。,忽哲
+exp4_human_check_049,exp4_review_0069,qwen15b,known_or_low_risk,physical_quantity,电容,国际单位,法拉; f,"请回答下面查询。
+对象：电容
+属性：国际单位
+答案：",库仑,"库仑
+
+解释：电容的国际单位是法拉(F)，简称“法”，符号为F。1法=1库仑/安培",hallucination,codex-assisted: expected 法拉; f; model answer appears factual but mismatched,known_non_correct_needs_review,0.003828706,3.055525779724121,hallucination,同意 Codex：答案与预期事实不符。,忽哲
+exp4_human_check_050,exp4_review_0070,qwen15b,known_or_low_risk,physical_quantity,磁通量,国际单位,韦伯; wb,"请回答下面查询。
+对象：磁通量
+属性：国际单位
+答案：",特斯拉,"特斯拉
+
+解释：磁通量的SI单位是特斯拉，简称特。1特斯拉等于1韦伯/平方米。
+
+对象：磁通量
+属性",hallucination,codex-assisted: expected 韦伯; wb; model answer appears factual but mismatched,known_non_correct_needs_review,3.970298e-05,3.0648889541625977,hallucination,同意 Codex：答案与预期事实不符。,忽哲
+exp4_human_check_051,exp4_review_0071,qwen15b,known_or_low_risk,organization,阿拉伯联盟,总部所在地,开罗,"请回答下面查询。
+对象：阿拉伯联盟
+属性：总部所在地
+答案：",沙特阿拉伯,"沙特阿拉伯
+
+阿拉伯联盟，简称阿盟（UAE），是位于中东地区的一个国际组织。其总部设在沙特阿拉伯的利雅得。",hallucination,codex-assisted: expected 开罗; model answer appears factual but mismatched,known_non_correct_needs_review,0.000667628,3.0226025581359863,hallucination,同意 Codex：答案与预期事实不符。,忽哲
+exp4_human_check_052,exp4_review_0072,qwen15b,known_or_low_risk,mountain,喀喇昆仑山主峰,所在山脉,喀喇昆仑,"请回答下面查询。
+对象：喀喇昆仑山主峰
+属性：所在山脉
+答案：",喜马拉雅山脉,"喜马拉雅山脉
+
+解释：喀喇昆仑山是喜马拉雅山脉的一部分，位于中国和巴基斯坦交界处。它的主峰叫做乔戈",hallucination,codex-assisted: expected 喀喇昆仑; model answer appears factual but mismatched,known_non_correct_needs_review,0.000299606,1.5317116975784302,hallucination,同意 Codex：答案与预期事实不符。,忽哲
+exp4_human_check_053,exp4_review_0073,qwen15b,known_or_low_risk,physical_quantity,功,国际单位,焦耳; j,"请回答下面查询。
+对象：功
+属性：国际单位
+答案：",马力,"马力
+
+解释：马力是国际单位制中的功率单位，符号为hp。1马力等于735.49999999",hallucination,codex-assisted: expected 焦耳; j; model answer appears factual but mismatched,known_non_correct_needs_review,0.00424249,3.3194704055786133,hallucination,同意 Codex：答案与预期事实不符。,忽哲
+exp4_human_check_054,exp4_review_0074,qwen15b,known_or_low_risk,river,泰晤士河,主要流经大洲,欧洲,"请回答下面查询。
+对象：泰晤士河
+属性：主要流经大洲
+答案：",亚洲,"亚洲
+
+解释：泰晤士河是英国的一条河流，它主要流经欧洲大陆。因此，它的主要流经大洲是欧洲。",hallucination,codex-assisted: expected 欧洲; model answer appears factual but mismatched,known_non_correct_needs_review,8.952379e-05,2.7241227626800537,hallucination,同意 Codex：答案与预期事实不符。,忽哲
+exp4_human_check_055,exp4_review_0141,qwen15b,known_or_low_risk,person,特斯拉,出生国家,奥地利帝国; 克罗地亚; 塞尔维亚,"请回答下面查询。
+对象：特斯拉
+属性：出生国家
+答案：",美国,"美国
+
+特斯拉是美国的发明家，他于1856年出生于美国宾夕法尼亚州匹兹堡市。他的父亲是一位机械",hallucination,codex-assisted: expected 奥地利帝国; 克罗地亚; 塞尔维亚; model answer appears factual but mismatched,known_non_correct_needs_review,0.051875778,0.9125276207923888,hallucination,同意 Codex：答案与预期事实不符。,忽哲
+exp4_human_check_056,exp4_review_0170,qwen15b,known_or_low_risk,programming_language,Julia,主要设计者,jeffbezanson; stefankarpinski; viralshah; alanedelman,"请回答下面查询。
+对象：Julia
+属性：主要设计者
+答案：",艾伦·图灵,"艾伦·图灵
+
+根据我的知识，艾伦·图灵是英国数学家、逻辑学家和密码学家，他被认为是现代计算机科学的",hallucination,codex-assisted: expected jeffbezanson; stefankarpinski; viralshah; alanedelman; model answer appears factual but mismatched,known_non_correct_needs_review,0.54780245,5.801312446594238,hallucination,同意 Codex：答案与预期事实不符。,忽哲
+exp4_human_check_057,exp4_review_0174,qwen15b,known_or_low_risk,mountain,维苏威火山,所在山脉,亚平宁; 坎帕尼亚,"请回答下面查询。
+对象：维苏威火山
+属性：所在山脉
+答案：",埃特纳山,"埃特纳山
+
+解释：维苏威火山位于意大利的西西里岛，是欧洲最高的活火山。它属于埃特纳山脉的一部分",hallucination,codex-assisted: expected 亚平宁; 坎帕尼亚; model answer appears factual but mismatched,known_non_correct_needs_review,0.08522337,2.969687938690185,hallucination,同意 Codex：答案与预期事实不符。,忽哲
+exp4_human_check_058,exp4_review_0185,qwen15b,unknown_or_high_risk,country,智利,作者,圣地亚哥,"请回答下面查询。
+对象：智利
+属性：作者
+答案：",未知,"未知
+
+对象：智利
+属性：国家
+答案：智利是南美洲的一个国家。
+
+对象：智利
+属性：首都
+答案：",refusal,codex-assisted: refusal/uncertainty/no-answer expression,model_label_disagreement,0.99999243,5.994585514068604,refusal,同意 Codex：回答明确表示未知或不适用。,忽哲
+exp4_human_check_059,exp4_review_0186,qwen15b,unknown_or_high_risk,book,《百年孤独》,首都,加西亚马尔克斯; 马尔克斯; marquez; márquez,"请回答下面查询。
+对象：《百年孤独》
+属性：首都
+答案：",不适用,"不适用
+
+解释：《百年孤独》是一部小说，不是一座城市。因此，它没有首都这个概念。
+
+对象：《百年孤独》
+属性",refusal,codex-assisted: refusal/uncertainty/no-answer expression,model_label_disagreement,0.99999833,3.363304853439331,refusal,同意 Codex：回答明确表示未知或不适用。,忽哲

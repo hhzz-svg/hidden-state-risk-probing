@@ -1,0 +1,16 @@
+{
+  "hidden_file": "outputs\\qwen15b\\experiment7_optionalA\\hidden_probe\\hidden_states_pk_ck.pt",
+  "data_file": "data\\experiment7_optionalA\\pk_ck_conflict_v1.jsonl",
+  "num_samples": 60,
+  "num_layers": 29,
+  "hidden_size": 1536,
+  "known_count": 38,
+  "unknown_count": 22,
+  "best_layer_by_auroc": 20,
+  "best_auroc_mean": 0.9828571428571429,
+  "best_auroc_std": 0.034285714285714294,
+  "best_accuracy_mean": 0.9333333333333332,
+  "best_f1_mean": 0.9232323232323232,
+  "n_splits": 5,
+  "seed": 42
+}

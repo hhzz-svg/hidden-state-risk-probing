@@ -1,0 +1,30 @@
+{
+  "hidden_file": "C:\\Users\\huzhe\\OneDrive\\Desktop\\论文\\实验\\hidden_state_pilot\\outputs\\qwen15b\\experiment7_optionalA_v2\\hidden_probe\\hidden_states_pk_ck_v2.pt",
+  "num_samples": 237,
+  "pk_follow_count": 111,
+  "ck_follow_count": 126,
+  "num_layers": 29,
+  "hidden_size": 1536,
+  "best_by_split": [
+    {
+      "split": "prompt_style_heldout",
+      "layer": 28,
+      "auroc_mean": 0.9102827177382582,
+      "auroc_std": 0.011768991114139989,
+      "accuracy_mean": 0.8007583965330445,
+      "accuracy_std": 0.022829666391505063,
+      "f1_mean": 0.5328947368421053,
+      "f1_std": 0.30703320762047454
+    },
+    {
+      "split": "source_id_group5",
+      "layer": 21,
+      "auroc_mean": 0.9909771420206204,
+      "auroc_std": 0.007256180039670997,
+      "accuracy_mean": 0.9578014184397163,
+      "accuracy_std": 0.015052658938528496,
+      "f1_mean": 0.9598200143845255,
+      "f1_std": 0.014692189611787424
+    }
+  ]
+}

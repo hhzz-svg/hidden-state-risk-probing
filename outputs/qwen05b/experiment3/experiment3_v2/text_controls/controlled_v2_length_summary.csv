@@ -1,0 +1,5 @@
+﻿,char_len,char_len,char_len,char_len,token_len,token_len,token_len,token_len
+,mean,std,min,max,mean,std,min,max
+label,,,,,,,,
+0,15.215,1.6098862283843882,13,20,10.535,1.5878859875783713,9,15
+1,15.725,1.0071977145431303,15,19,11.42,1.0043123100312974,10,13

@@ -1,0 +1,17 @@
+﻿category,behavior_label,count,rate
+chemical_formula,ck_follow,8,0.1
+chemical_formula,mixed_or_conflict_ack,40,0.5
+chemical_formula,pk_follow,32,0.4
+country_capital,ck_follow,39,0.4875
+country_capital,mixed_or_conflict_ack,29,0.3625
+country_capital,other,1,0.0125
+country_capital,pk_follow,11,0.1375
+country_continent,ck_follow,26,0.325
+country_continent,mixed_or_conflict_ack,36,0.45
+country_continent,pk_follow,18,0.225
+element_symbol,ck_follow,12,0.15
+element_symbol,mixed_or_conflict_ack,37,0.4625
+element_symbol,pk_follow,31,0.3875
+river_continent,ck_follow,41,0.5125
+river_continent,mixed_or_conflict_ack,20,0.25
+river_continent,pk_follow,19,0.2375

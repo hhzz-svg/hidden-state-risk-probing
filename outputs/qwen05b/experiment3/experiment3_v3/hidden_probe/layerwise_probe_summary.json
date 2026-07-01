@@ -1,0 +1,16 @@
+{
+  "hidden_file": "outputs\\qwen05b_controlled_v3\\hidden_states.pt",
+  "data_file": "data\\prompts_controlled_v3.jsonl",
+  "num_samples": 600,
+  "num_layers": 25,
+  "hidden_size": 896,
+  "known_count": 300,
+  "unknown_count": 300,
+  "best_layer_by_auroc": 10,
+  "best_auroc_mean": 0.9998888888888888,
+  "best_auroc_std": 0.00022222222222225695,
+  "best_accuracy_mean": 0.9949999999999999,
+  "best_f1_mean": 0.9950406392065023,
+  "n_splits": 5,
+  "seed": 42
+}

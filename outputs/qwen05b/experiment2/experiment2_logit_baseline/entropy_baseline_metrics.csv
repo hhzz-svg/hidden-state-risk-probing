@@ -1,0 +1,4 @@
+﻿baseline,auroc,median_threshold,accuracy_at_median_threshold,precision_at_median_threshold,recall_at_median_threshold,f1_at_median_threshold
+entropy,0.6535000000000001,4.372146844863892,0.61,0.61,0.61,0.61
+negative_top1_prob,0.5852999999999999,-0.15600940585136414,0.57,0.57,0.57,0.57
+negative_margin,0.5418000000000001,-0.05048992857336998,0.55,0.55,0.55,0.55

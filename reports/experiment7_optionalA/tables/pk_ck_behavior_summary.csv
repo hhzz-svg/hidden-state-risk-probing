@@ -1,0 +1,8 @@
+﻿model_display_name,behavior_label,count,total,rate
+Qwen2.5-0.5B-Instruct,ck_follow,81,100,0.81
+Qwen2.5-0.5B-Instruct,mixed_or_conflict_ack,15,100,0.15
+Qwen2.5-0.5B-Instruct,pk_follow,4,100,0.04
+Qwen2.5-1.5B-Instruct,ck_follow,22,100,0.22
+Qwen2.5-1.5B-Instruct,mixed_or_conflict_ack,39,100,0.39
+Qwen2.5-1.5B-Instruct,other,1,100,0.01
+Qwen2.5-1.5B-Instruct,pk_follow,38,100,0.38

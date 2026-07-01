@@ -1,0 +1,5 @@
+﻿method,auroc
+hidden_probe_layer_18,0.9998888888888888
+entropy,0.7983777777777777
+negative_top1_prob,0.7803111111111112
+negative_margin,0.7438

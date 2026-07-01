@@ -1,0 +1,13 @@
+﻿model,target,score,auroc,accuracy_at_median,f1_at_median
+Qwen2.5-0.5B-Instruct,high_risk_behavior,hidden_risk_score_oof,0.8815920921184078,0.8,0.8328690807799443
+Qwen2.5-0.5B-Instruct,high_risk_behavior,entropy_score,0.9163073768336928,0.7566666666666667,0.7966573816155988
+Qwen2.5-0.5B-Instruct,high_risk_behavior,neg_top1_prob_score,0.9077107103422892,0.7566666666666667,0.7966573816155988
+Qwen2.5-0.5B-Instruct,high_risk_behavior,neg_margin_score,0.8818418423681582,0.73,0.7743732590529248
+Qwen2.5-1.5B-Instruct,high_risk_behavior,hidden_risk_score_oof,0.9479248283846522,0.8883333333333333,0.8995502248875562
+Qwen2.5-1.5B-Instruct,high_risk_behavior,entropy_score,0.9315877489445804,0.8316666666666667,0.848575712143928
+Qwen2.5-1.5B-Instruct,high_risk_behavior,neg_top1_prob_score,0.9251909111108512,0.825,0.8425787106446777
+Qwen2.5-1.5B-Instruct,high_risk_behavior,neg_margin_score,0.894750382991662,0.8083333333333333,0.8275862068965517
+Qwen2.5-7B-Instruct,high_risk_behavior,hidden_risk_score_oof,0.9700867584497368,0.965,0.966183574879227
+Qwen2.5-7B-Instruct,high_risk_behavior,entropy_score,0.4263558101363346,0.4183333333333333,0.4380032206119162
+Qwen2.5-7B-Instruct,high_risk_behavior,neg_top1_prob_score,0.3910438928527562,0.405,0.4251207729468599
+Qwen2.5-7B-Instruct,high_risk_behavior,neg_margin_score,0.3696334260096696,0.3883333333333333,0.4090177133655394

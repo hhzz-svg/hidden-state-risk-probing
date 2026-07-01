@@ -1,0 +1,2 @@
+﻿model,target,num_samples,pk_follow_count,ck_follow_count,best_layer,best_auroc_mean,best_auroc_std,best_accuracy_mean,best_f1_mean
+Qwen2.5-1.5B-Instruct,pk_follow_vs_ck_follow,60,38,22,20,0.9828571428571429,0.034285714285714294,0.9333333333333332,0.9232323232323232

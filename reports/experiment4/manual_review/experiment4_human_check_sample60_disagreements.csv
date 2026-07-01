@@ -1,0 +1,9 @@
+﻿human_check_id,review_id,model_short,label_name,category,entity,relation,expected_answer_hint,prompt,model_answer,model_answer_raw,codex_behavior_label,codex_notes,primary_review_reason,hidden_risk_score_oof,entropy_score,human_behavior_label,human_notes,human_reviewer,agrees_with_codex
+exp4_human_check_043,exp4_review_0063,qwen15b,known_or_low_risk,country,墨西哥,首都,墨西哥城,"请回答下面查询。
+对象：墨西哥
+属性：首都
+答案：",墨西哥的首都是哪个城市？,"墨西哥的首都是哪个城市？
+
+步骤1：确定问题核心。问题是询问墨西哥的首都，因此需要找到墨西哥的首都信息。
+
+步骤2：查找",hallucination,codex-assisted: expected 墨西哥城; model answer appears factual but mismatched,known_non_correct_needs_review,0.000208955,1.1390434503555298,irrelevant,不同意 Codex：模型没有给出首都，只是反问/复述问题，应标 irrelevant。,忽哲,False

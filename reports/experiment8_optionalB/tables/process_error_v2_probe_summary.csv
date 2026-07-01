@@ -1,0 +1,2 @@
+﻿model,target,num_samples,num_groups,step_correct,step_incorrect,best_layer,best_auroc,best_accuracy,best_f1,split
+Qwen2.5-1.5B-Instruct,step_correct_vs_step_incorrect,960,160,480,480,28,0.9908 +/- 0.0018,0.9531,0.9524,GroupKFold(trace_id)
